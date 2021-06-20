@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/document.png">
+</head>
+<body>
+
+    <nav class="navbar" >
+        <a href="index.html">
+            <img src="Images/logo-final.png"  class="logo-img">
+          </a>
+            <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+      
+              <li><a href="index.html">HOME</a> </li>
+                <li><a href="labprobs.html">LAB PROBS</a> </li>
+                  <li><a href="theoryprobs.html">THEORY PROBS</a> </li>
+                    <li><a href="doubtprobs.html">DOUBT PROBS</a> </li>
+            </ul>
+          </nav>
+    
+    <section class="questions">
+        <div class="container">
+            <div class="accordian">
+                <div class="accordian-item" id="question1">
+                    <a class="accordian-link" href="#question1">
+                        Problem 1
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program that will read a line of text and delete all occurrences of the
+                        article ‘an’ from entered text.<br> Also count the number of ‘an’ removed from the entered
+                        text. (15M)<br>
+                        Input text should be all lowercase characters and remove only the two letter word ‘an’.<br>
+                        <br>Example :<br>
+                        Input :<br>
+                        “an owl an elephant an umbrella an animal an apartment all are examples of an
+                        article”<br>
+                        Output:<br>
+                        owl elephant umbrella animal apartment all are examples of article<br>
+                        Count of an removed from entered text = 6</p>
+                    <a href="https://drive.google.com/file/d/1927OB4VOxt0uWCCI6FzDnOy_x4aalY94/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question2">
+                    <a class="accordian-link" href="#question2">
+                    Problem 2
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>You are given input number n, then you will be given ‘n + 3’ numbers as input that
+                        you have to store in an array ,each number given to you as input lies between [1,n] ,
+                        every number in those ‘n+3’ numbers given to you as an input comes only once except
+                        one number that comes 4 times, you have to (15M)<br>
+                        <br>(i) Print that repeated number<br>
+                        (ii) Print all the numbers that come before the first occurrence of that repeated number
+                        in the array<br>
+                        Note: You are allowed to use only one array in your whole code<br>
+                        Note : n should be less than 50<br>
+                        <br>Input: n = 5<br>
+                        Arr = 1 2 5 4 3 4 4 4<br>Ans : Repeated Number : 4<br>
+                        Numbers in the array before the first occurrence of repeated number<br>
+                        1 2 5</p>
+                        <a href="https://drive.google.com/file/d/1nGGLZ20KugmcmRjs0oLoc9oYzYKhq3W5/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question3">
+                    <a class="accordian-link" href="#question3">
+                    Problem 3
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p> Write a C program that will take n numbers through the keyboard by the user and
+                        delete the first k numbers from the beginning of the array. Then append m numbers at
+                        the end of the array. Print the arrays after every operation. (20M)<br>
+                        <br>Example :<br>
+                        n=5, array- 5,6,7,2,3<br>
+                        k=2, after deletion the array - 7,2,3<br>
+                        m=3, after insertion the array - 7,2,3,4,1,6</p>
+                        <a href="https://drive.google.com/file/d/1IlOEPNRSbohytVKUbLIwT-6l1Mb78ztF/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question4">
+                    <a class="accordian-link" href="#question4">
+                    Problem 4
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Take an integer array P of length >=2, where all the elements are distinct. In the
+                        array P, a group is defined as (P[m], P[n]) where m and n are array indices and they are
+                        distinct. (25M)<br>
+                        <br>I. Find all such groups from the array P. Print the groups along with the maximum
+                        among the elements in each group. Also, store the maximum among the
+                        elements of each group in an array L.<br>
+                        II. In the array P, we have the following property for some of the groups: P[m]>P[n]
+                        when m<n. Find and print all such groups from the array.<br>
+                        Note: Write all the codes in a single C source file.<br>
+                        Sample Input: P is {8,7,12,15,4}<br>Sample Output:<br> (I) Possible groups = (8,7), (8,12), (8,15), (8,4), (7,12), (7,15), (7,4),
+                        (12,15), (12,4), (15,4)<br>
+                        Maximum in each group = 8, 12, 15, 8, 12, 15, 7, 15, 12, 15<br>
+                        (II) The groups satisfying the property (P[m] > P[n] & m < n) are:<br>
+                        Group:(8,7)<br>
+                        Group:(8,4)<br>
+                        Group:(7,4)<br>
+                        Group:(12,4)<br>
+                        Group:(15,4)</p>
+                        <a href="https://drive.google.com/file/d/1QfKWR2TsHyCPrYlXuFTM6d8fP7scHBPL/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question5">
+                    <a class="accordian-link" href="#question5">
+                    Problem 5
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to accept a key string and some test string from the user through
+                        the keyboard. The program should validate the test string, and return the message that
+                        whether the key string is present in the test string or not. (25M)<br>
+                        Note: If a key string is present in the test string means the frequency of characters of
+                        key string should either match or below the frequency of characters of the test string<br>
+                        <br>Example :<br>
+                        Key string = "ab"<br>
+                        Test string = “ac”<br>
+                        Key string is not present in the Test string.<br>
+                        <br>
+                        Key string = "ab"<br>
+                        Test string = “acb”<br>
+                        Key string is present in the Test string.<br>
+                        <br>
+                        Key string = "abbbcdd"<br>
+                        Test string = “abcdbdbefdba”<br>
+                        Key string is present in the Test string.<br>
+                        <br>
+                        Key string = "abbbcdd"<br>
+                        Test string = “abbcbdasc”<br>
+                        Key string is not present in the Test string.<br>
+                        <br>
+                        [NOTE: The solution include both versions of comparison (case sensitive and
+                        insensitive) under different comment, if you want to run the code with a particular
+                        constraint, please remove the others part before compiling]
+                        </p>
+                        <a href="https://drive.google.com/file/d/1Ut99G9nm4WxHwTVGhCKIS18W0gcKd5GA/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question6">
+                    <a class="accordian-link" href="#question6">
+                    Problem 6
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>User supplies two strings X and Y of at most 20 characters from 
+                        English alphabet (a to z and A to Z) .<br> 
+                        Store them in two 1D arrays. <br>
+                        <br>
+                        Find and print their longest common sub string, ignoring the difference between uppercase 
+                        and lowercase. May use string related functions. <br>
+                        <br>
+                        Example <br>
+                        Enter X: ProGraMming <br>
+                        Enter Y: grammar <br>
+                        Answer :gramm 
+                        </p>
+                        <a href="https://drive.google.com/file/d/1HktN9KXM-EdXNGqojTMvrzGabf465RYc/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question7">
+                    <a class="accordian-link" href="#question7">
+                    Problem 7
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C-program to read marks in the Programming and Data 
+                        Structure Laboratory (out of 100) for N (to be read before) students. 
+                        Consider the interval of marks 0-5, 6-10, 11-15, and so on.<br> Note that 
+                        the first interval contains 6 numbers, and other intervals are of 5 
+                        numbers. Find the interval of marks having maximum number of 
+                        students in the class and compute the difference between its center 
+                        point from the mean of the distribution of marks.<br>
+                        <br>
+                        Provide results for the following inputs:<br>
+                        <br>1. N=20<br>
+                         45, 56, 60, 15, 80, 90, 12, 85, 35, 58,<br>
+                         63, 73, 52, 78, 47, 23, 14, 58, 18, 96<br>
+                        <br>
+                       <br> 2. N=30<br>
+                         54, 65, 6, 51, 8, 9, 21, 58, 53, 85,<br>
+                         36, 37, 25, 87, 19, 93, 44, 85, 17, 69,<br>
+                         40, 0, 3, 33, 16, 63, 95, 69, 74, 38</p>
+                         <a href="https://drive.google.com/file/d/1Fa65wMcPW7DlZ61Qgx5gtQ_Pf3FeIq4F/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question8">
+                    <a class="accordian-link" href="#question8">
+                    Problem 8
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C-program to read a number N and then to read weights 
+                        (in Kg) of N students in an array.<br> Compute the mean, median and 
+                        standard deviation of their weights. Provide results for the following <br>
+                        <br>
+                        inputs:<br>
+                        1. N=20<br>
+                         45, 56, 60, 65, 80, 90, 102, 85, 65, 54,<br>
+                         63, 73, 52, 78, 47, 43, 44, 58, 88, 96<br>
+                        <br>
+                        2. N=30<br>
+                         54, 65, 62, 51, 84, 49, 41, 58, 53, 85,<br>
+                         46, 47, 55, 87, 99, 93, 44, 85, 77, 69,<br>
+                         40, 70, 53, 63, 76, 63, 95, 69, 74, 58<br>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1g_jc5GCySURROApodohBBHyfUNG2LqB5/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question9">
+                    <a class="accordian-link" href="#question9">
+                    Problem 9
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C-program, which reads five English words in the 
+                        following order, an article (A/An/The), a noun, a verb (in simple 
+                        present or past tense), an article, and a noun. For any of these words, 
+                        if you provide a digit as a string, it will consider the word as an empty 
+                        string. The program forms an English sentence in another string by 
+                        taking care of blank spaces in between and appending the punctuation 
+                        symbol ‘full stop’ (.) at the end.<br> While converting, it would take care 
+                        of converting any upper case alphabet to a lower case alphabet if it is 
+                        not the first word of the sentence. <br>Similarly, it would convert a lower 
+                        case alphabet of the first alphabet of the first word in the sentence to 
+                        an upper case alphabet. Finally, it prints the sentence.<br>
+                        <br>
+                        For example:<br>
+                        (i) Input: “the”, “Girl”, “reads”, “a”, “Book”. <br>
+                         Output: “The girl reads a book.”<br>
+                        <br>
+                        (ii) Input: “5”, “they”, “Went”, “2”, “Home”.<br>
+                         Output: “They went home.”<br>
+                         <br>
+                        Provide results for the following inputs:<br>
+                        1. “A”, “man”, “asks”, “The”, “Person”.<br>
+                        2. “0”, “Rahim”, “throws”, “the”, “football”.<br>
+                        3. “the”, “dog”, “chases”, “the”, “cat”<br>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1bZzGT04Z1tNhYhAEfeqUu_Z5_ljuABJh/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question10">
+                    <a class="accordian-link" href="#question10">
+                    Problem 10
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program which first reads and integer n (< 100).<br>
+                         Then read n integers and store them in a one dimensional array.<br> The program should then print the value of the largest number in the array.</p>
+                         <a href="https://drive.google.com/file/d/1iIaUr8WU3H-ZtS35Puy_DkllHKiNTNFH/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question11">
+                    <a class="accordian-link" href="#question11">
+                    Problem 11
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Consider an array A of integers. In this assignment, you 
+                        will have find and print all non-duplicate elements in A, in 
+                        the same order as they appear in A<br>
+                        <br> Ex:<br> 
+                         If A has 12, 3, 4, 11,12, 4, 13, 12, you should print 12, 3, 
+                        4, 11, 13<br>
+                         If A has 3, 3, 3, 6, 1, 3, 3, 6, you should print 3, 6, 1<br>
+                         Write a C program that<br>
+                         Read in an integer n (assume n < 20)<br>
+                         Read in n integers in an array A<br>
+                         Print the integers read <br>
+                         Print the non-duplicate integers in A as above<br> Hint:<br>
+                         Use another array B, initially containing 0 elements<br>
+                         For each element in A (one loop), check if the element 
+                        is already in B (compare with each element of B in 
+                        another loop nested inside the first loop)<br>
+                         If yes, do nothing<br>
+                         If no, add to B after the last element (initially no 
+                        element in B, so add to index 0 for the first one) and 
+                        update the number of elements in B<br>
+                         At the end, print the elements in B</p>
+                        <a href="https://drive.google.com/file/d/1ATnNhBXpU9dBMjW4jgYaB2Q-RHocV_3A/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question12">
+                    <a class="accordian-link" href="#question12">
+                    Problem 12
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A string is called a palindrome if it reads the same 
+                        backward or forward<br>
+                         Example, “madam”, “radar”, “abcddcba”,….<br>
+                        Write a C program that will do the following in the order 
+                        given: <br>
+                        <br>
+                         Reads in a string in a character array S using %s format 
+                        in scanf<br>
+                         Type the string with no space and end it with pressing 
+                        Enter<br>
+                         Assume that the size of the string (including the ‘\0’ at the 
+                        end will not be more than 50 characters)<br>
+                         Remember that for reading with %s, you give only the 
+                        name of the character array in which you want to read, 
+                        without any & in front Computes and prints the length of the string<br>
+                         Length = number of characters in the string not counting the ‘\0’at 
+                        the end<br>
+                         Write a for loop to check the characters in the array S one by one 
+                        till you get the character ‘\0’ <br>
+                         Reads in an integer p<br>
+                         Checks if the string S has any palindrome of length p or not<br>
+                         If yes, print the palindrome part of the string only<br>
+                         If there are more than one such palindrome, print any one<br>
+                         Once you find such a palindrome, you should stop checking 
+                        and break out of the loop (use break statement)<br>
+                         If no, print a message<br>
+                         Do NOT use any other array or write any functions even if you know 
+                        it (50% penalty if any other array is used or any function is used)<br>
+                         Hint: Start from each character in S from the start (one loop) and 
+                        check if there is a palindrome of length p starting from it (another 
+                        loop)<br>
+                        Example: <br>
+                        <br>
+                         If S = “abccba” and p = 6, prints “abccba” (as S is itself a 
+                        palindrome of length 6)<br>
+                         If S = “abccba” and p = 4, prints “bccb” (as “bccb” is a 
+                        palindrome of length 4 inside S)<br>
+                         If S = “abccba” and p = 2, prints “cc” (as “cc” is a palindrome 
+                        of length 2 inside S)<br>
+                         If S = “abccba” and p = 3, prints “No palindrome of length 3 in 
+                        S” (as there is no palindrome of length 3 inside S)<br>
+                         If S = “abbcddc” and p = 4, prints any one of “abbc” or “cddc” 
+                        (as both are palindromes of length 4 inside S). Which one 
+                        you hit first will depend on the way you write your program.<br>
+                         In all cases, once it finds a palindrome and prints it, it should 
+                        not check for palindromes any more (break from for loop)</p>
+                        <a href="https://drive.google.com/file/d/1Fg5kOXTYFq05lDXY98SO6lp-GuWTMeeS/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question13">
+                    <a class="accordian-link" href="#question13">
+                    Problem 13
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to reverse the elements of an 1-D array of type double.<br> <br>Input the elements
+                        of the array successively until ‘-1’ is pressed by the user.<br> The elements must be of type double.<br>
+                        You have to use a single array only.</p>
+                        <a href="https://drive.google.com/file/d/1ytqR199e_TBsAAt6w_A6Q_E5smopq_BP/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question14">
+                    <a class="accordian-link" href="#question14">
+                    Problem 14
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to take input a sentence as a character array and convert all vowels in the
+                        sentence to uppercase.</p>
+                        <a href="https://drive.google.com/file/d/136CtFMC6-fu3QIVndVqqAZ4AAE23_rI7/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question15">
+                    <a class="accordian-link" href="#question15">
+                    Problem 15
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to take 10 non-repetitive integers in the range from 1 to 100 as input and
+                        store it in an array ‘X’.<br> Find the maximum value ‘m’ in ‘X’ and create an empty array ‘Y’
+                        with size ‘m’.<br> The array ‘Y’ is initialized with “0”. Now, take each integer “i” stored in X and
+                        perform ‘Y[i]=1’.<br> Finally, traverse the whole array ‘Y’ from end to the beginning, and print the
+                        indices of elements that contain ‘1’.<br> Observe the input and output and write your observation
+                        in the source file as a comment.</p>
+                        <a href="https://drive.google.com/file/d/1GjbNrffNGUDLA3x4xPzIcTYRj-uzIJw0/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question16">
+                    <a class="accordian-link" href="#question16">
+                    Problem 16
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C Program to find out the value and position of the largest and the second largest
+                        element in an array with size 20.<br> Thereafter, swap the position of the above two numbers
+                        without using a third variable.<br> You are not allowed to sort the array as well.</p>
+                        <a href="https://drive.google.com/file/d/1PN_OyLd4UVbm0D3-9_6M3rfttnVMpXz1/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question17">
+                    <a class="accordian-link" href="#question17">
+                    Problem 17
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to take input a paragraph as a single character array and a given word into
+                        another character array.<br> Hence count the number of times the word appears in the paragraph
+                        and for each appearance of the word, change all the characters of that word to uppercase in the
+                        paragraph. (For taking a sentence with blank spaces between words as input, you have to use
+                        “%[ˆ\n]s” in ‘scanf’ function).<br>
+                        <br>Example:<br>
+                        • Input:<br>
+                        – Paragraph: The sun is the nearest star to Earth. The sun gives us light and heat. It is
+                        because of the sun that all life on Earth exists<br>
+                        – Word : sun<br>
+                        • Output:<br>
+                        – Paragraph: The SUN is the nearest star to Earth. The SUN gives us light and heat. It
+                        is because of the SUN that all life on Earth exists</p>
+                        <a href="https://drive.google.com/file/d/11q1ofhdR-fG1eg-FYzvXOOuxKZF6Pzg_/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question18">
+                    <a class="accordian-link" href="#question18">
+                    Problem 18
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>User supplies two lists A and B containing m and n integer elements respectively. Find the elements common to A and B, and print 
+                        them. <br>
+                        Example: <br>
+                        Input: m=5,n=7,A=[2 5 4 4 1] B =[3 4 4 4 1 2 2]. <br>
+                        Output: Common elements: 2, 4, 1. </p>
+                        <a href="https://drive.google.com/file/d/17GLr-nle5E0BspkHdb3nYRwYWQAjVjzJ/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question19">
+                    <a class="accordian-link" href="#question19">
+                    Problem 19
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to separate odd and even integers in separate arrays.<br> Assume that the array can hold maximum 20 integers. <br>
+                        input: No. of elements in the array, the different integer values in the array<br> 
+                        output: One array for odd integers and one array for even integers</p>
+                        <a href="https://drive.google.com/file/d/1N9fH1EGtHTHUZFx8pVKd3UoDkDeggxKW/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question20">
+                    <a class="accordian-link" href="#question20">
+                    Problem 20
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program that will insert a new value to an already existing sorted array such that the sorting is maintained. You can assume <br>
+<br>
+                        1. Assume that the user provides the elements of the original array in already sorted order (ascending order) <br>
+                        2. Assume that the modified array can hold maximum 10 values <br>
+                        <br>
+                        input: No. of elements in the array, the different values in the array in sorted order, the new value to be inserted <br>
+                        <br>
+                        output: The original array, the modified array <br>
+                        <br>
+                        [Applying any sorting algorithm is not allowed]</p>
+                        <a href="" class="btn">Solution</a>
+                    <a href="https://drive.google.com/file/d/1vgjOc8KzVf3ql2MA3WhqGDs_7Vg9p2ZU/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question21">
+                    <a class="accordian-link" href="#question21">
+                    Problem 21
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to find the frequency of the smallest value in the array.<br> 
+<br>
+                        input: No. of elements in the array, the different values in the array <br>
+                        <br>
+                        output: The minimum value and the frequency of the minimum value <br>
+                        <br>
+                        [Think: You can naively do it in two steps. First you can find the minimum value and then look for the number of times it has occured. 
+                        Can you think of a way by which this is done in a single step i.e., in one traversal of the array?] </p>
+                    <a href="https://drive.google.com/file/d/1PR5BZ7HM685cT_DPfIc3QFpGc42kbOXy/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question22">
+                    <a class="accordian-link" href="#question22">
+                    Problem 22
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Take as input two natural numbers m and n (both between 1 and 10), followed by m and n distinct integers, both sorted in ascending 
+                        order (user enters elements in sorted order). Store them into two integer arrays A and B of length 10 each. Merge them into 1 single 
+                        sorted array C of length 20. Print C. <br>
+                        <br>
+                        Example: <br>
+                        Input: m=4,n=5,A=1 10 15 30, B=5 20 35 40 80. <br>
+                        Output: c = 1 5 10 15 20 30 35 40 80. <br>
+                        [Applying any sorting algorithm is not allowed] </p>
+                    <a href="https://drive.google.com/file/d/1gmHvUXg7r0x_UpU9Q9yKsBdbWtHUZqOz/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                
+                <div class="accordian-item" id="question23">
+                    <a class="accordian-link" href="#question23">
+                    Problem 23
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A palindrome, in general, is a word, phrase, number, or other sequence of characters, which reads the same backward or forward. 
+                        Your task is to take as input a string, print its length, and check whether it is a palindrome. <br>No library function should be used excepting stdio.h. <br>
+                        
+                        Examples <br>
+                        <br>
+                        Enter a string (of at most 100 characters): malayalam <br>
+                        Length of malayalam = 9 <br>
+                        palindrome <br>
+                        <br>
+                        Enter a string (of at most 100 characters): Malayalam <br>
+                        Length of Malayalam = 9 <br>
+                        not a palindrome <br>
+                        <br>
+                        Enter a string (of at most 100 characters): 16ab61 <br>
+                        Length of 16ab61 = 6 <br>
+                        not a palindrome <br>
+                        <br>
+                        Enter a string (of at most 100 characters): 16aba61 <br>
+                        Length of 16aba61 = 7 <br>
+                        palindrome </p>
+                    <a href="https://drive.google.com/file/d/1LEPWsUknHNOZZ_LuG9AJz99ORdC0aSR2/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                
+
+
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>

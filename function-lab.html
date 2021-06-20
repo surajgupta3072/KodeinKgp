@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/document.png">
+</head>
+<body>
+
+    <nav class="navbar" >
+        <a href="index.html">
+            <img src="Images/logo-final.png"  class="logo-img">
+          </a>
+            <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+      
+              <li><a href="index.html">HOME</a> </li>
+                <li><a href="labprobs.html">LAB PROBS</a> </li>
+                  <li><a href="theoryprobs.html">THEORY PROBS</a> </li>
+                    <li><a href="doubtprobs.html">DOUBT PROBS</a> </li>
+            </ul>
+          </nav>
+    
+    <section class="questions">
+        <div class="container">
+            <div class="accordian">
+                <div class="accordian-item" id="question1">
+                    <a class="accordian-link" href="#question1">
+                        Problem 1
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program in C to print all perfect numbers in a range given by the user. In this 
+                        program you need to use two C functions. <br>The first function will check whether the given 
+                        number is perfect or not, and return 1 (in case of perfect number) or 0 (otherwise).<br> The 
+                        second function should print all the perfect numbers in the range provided by the user, by 
+                        using the first function. The user has to specify the range of numbers using two numbers 
+                        (through keyboard), say p and q, where p and q are lower and upper bounds of the range.<br> 
+                        Through the main function, the user has to call the second function by passing the range 
+                        as arguments to print all perfect numbers within the range. <br>
+                        <br>
+                        Note: A number is said to be perfect, if the sum of all the divisors of a number equal to 
+                        the number itself.<br>
+                        <br>
+                        In this problem, consider the numbers as positive integers.<br>
+                        <br>
+                        Eg (i) 6 = 1,2,3 (1+2+3 = 6); (ii) 28 = 1,2,4,7,14 (1+2+4+7+14= 28)</p>
+                    <a href="https://drive.google.com/file/d/1AJ6fYtA9NT45QiQYHXh98bJYSKkUKqz7/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question2">
+                    <a class="accordian-link" href="#question2">
+                    Problem 2
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program that accepts the input string (alphanumeric characters), and
+                        display the output string by removing all the occurrences of a given character. <br>For
+                        carrying out this task, you need to write two C functions. The first C function is used forinputting the string with recursive calls. The string entry will be controlled/terminated by
+                        enter(\n) key.<br> The second function will take an array which contains the input string, the
+                        specific character and an empty string as input. The function should remove all the
+                        occurrences of a specific character in the input string, and the remaining string is stored
+                        in the other array. From the main(), the user has to call these two functions and then
+                        both input and output (after removing the specific character) strings to be printed in the
+                        main().<br>
+                        EX-1:<br>
+                        Enter the input string: apple<br>
+                        Specific Character: p<br>
+                        Input : apple<br>
+                        Output : ale<br>
+                        EX-2:<br>
+                        Enter the input string: apple<br>
+                        Specific Character: x<br>
+                        Input : apple<br>
+                        Output : apple</p>
+                    <a href="https://drive.google.com/file/d/1HyElQPBI3KjRFpdBuQK6R733l9AEZ7Ue/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question3">
+                    <a class="accordian-link" href="#question3">
+                    Problem 3
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to generate the strings with alphanumeric characters using the
+                        following constraints:<br>
+                       <br> (i) Consider an integer array loaded by the user from main().<br>
+                        (ii) Input two alphanumeric characters through the keyboard.<br>
+                        (iii) Write a C function to generate the strings with the following features:<br>
+                        (a) Number of strings equal to number of elements of an input array.<br>
+                        (b) The lengths of the strings are restricted by the values of the array elements.<br>
+                        (c) The characters within the string should have the following properties: If the length of
+                        the string is even, the first half of the string is repeated with 1st character and 2nd half
+                        of the string is repeated 2nd character. Otherwise, the 1st character has to repeat one
+                        time more than the 2nd character.<br>
+                        You need to call this C function from the main() and pass the desired four parameters.
+                        Example:<br>
+                        Input array length N = 4<br>
+                        Input Array Elements = p[4] = {2,9,3,10}.<br>
+                        Enter two characters = ‘a’, ‘b’<br>
+                        Output: ab, aaaaabbbb, aab, aaaaabbbbb</p>
+                    <a href="https://drive.google.com/file/d/1EFhSIHjFD6pXMeXsh6jYC-dYZqkbDhmc/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question4">
+                    <a class="accordian-link" href="#question4">
+                    Problem 4
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program with the functions mentioned below to perform the following:<br>
+                        (i) Take two positive integers (i1,i2) less than 50,000 as an input, and find their binary
+                        representations and store it in arrays (b1[], b2[]) using integer to binary conversion
+                        function void int_to_bin(int, int[]). For converting each integer you need to call the
+                        function separately.<br>
+                        (ii) Perform XOR operation (x[] = b1[] xor b2[]) using the function void xor(int [], int [],
+                        int[]).<br>
+                        (iii) Convert x[] into integer using the function int bin_to_int(int []).
+                        Call these functions through main() to perform the sequence of above mentioned
+                        operations.<br>
+                        Ex-1:<br>
+                        Input: 5 5<br>
+                        b1 = b2 = 0000000000000101<br>
+                        X = 0000000000000000<br>
+                        Integer value of x = 0.<br>
+                        Ex-2:<br>
+                        Input:<br>
+                        Input : 456, 321<br>
+                        b1 = 0000000111001000b2 = 0000000101000001<br>
+                        X = 0000000010001001<br>
+                        Integer value of x = 137<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1zo7mMG0nD_BbasnCGQsIPi1QqrRG4GEe/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question5">
+                    <a class="accordian-link" href="#question5">
+                    Problem 5
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to compute nCr for a given n and r.<br> You take the input n and r from the user in the main function. Then invoke the 
+                        function 'nCr' for the necessary computation. Finally print the result of the computation in the main function.<br> You are expected to write 
+                        a nice modular program (say, compute factorial inside a function....recursive or non-recursive...up to you..). </p>
+                    <a href="https://drive.google.com/file/d/17hzcyCum5cJXeAtwCfmhuI5nEHU-tJAL/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question6">
+                    <a class="accordian-link" href="#question6">
+                    Problem 6
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a recursive program to do the following. With a integer n (l to 25) as input, compute and print the values of m choose r, for m 
+                        to n, r 0 to m, using the following recurrence: <br>
+                        C(m,r) C(m-l,r) + C(m-l ,r-l). <br>
+                        <br>
+                        You should use one (and only one) ID integer array of size 26 for this. <br>
+                        Example (n 5): <br>
+                        1<br>
+                        1 1<br>
+                        1 2 1<br>
+                        1 3 3 1<br>
+                        1 4 6 4 1<br>
+                        1 5 10 10 5 1</p>
+                    <a href="https://drive.google.com/file/d/1ExFVZ--6qP6mX5SX7udYKroMmuyt2Yi1/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question7">
+                    <a class="accordian-link" href="#question7">
+                    Problem 7
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write	a	function	check_prime(.),	which	takes	an	
+                        integer	x	and	returns	1	if	it	is	prime	else	returns	0.<br>	Write	a	
+                        main	function,	which	reads	a	number	N,	and	returns	its	
+                        sum	of	all	prime	factors.	Note	that	1	is	not	considered	as	a	
+                        prime	factor.<br>
+                        <br>
+                        For	example,	for	the	number	8,	its	sum	of	prime	factors:	<br>
+                        2+2+2=6.<br>
+                        Provide	results	for	the	following	set	of	numbers:<br>
+                        37,	237,	423,	321,	2054</p>
+                    <a href="https://drive.google.com/file/d/11bJuziECS1FfvHBbR6FSMe2hyNZWoXOG/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question8">
+                    <a class="accordian-link" href="#question8">
+                    Problem 8
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write	a	function	named	SumDigit(.), which	takes	an	
+                        integer	x as	input	and	returns	its	sum	of	digits if	it	is	
+                        positive,	otherwise	it	returns	0.<br>
+                        <br>
+                        We	define	a	class	number	of	an	integer	by	performing	
+                        SumDigit(.) operations	on	it	on	succession	till	it	gets	a	
+                        single	digit,	which	is	its	class	number.<br>
+                        <br>
+                        For	example,<br>
+                        class	number	of	123456	is	3	as	it	follows:<br>
+                        SumDigit(123456)=21<br>
+                        SumDigit(21)=3<br>
+                        Hence,	Class number of	123456	is	3.<br>
+                        <br>
+                        Write	a	function	ClassNumber(x) which	computes	the	
+                        class	number	of	integer	x.<br>
+                        <br>
+                        Write	a	main	function,	which	reads	two	numbers	and	
+                        prints	an	appropriate	message	whether	their	class	<br>
+                        numbers	are	same	or	not.Provide	results	for	the	following	sets	of	inputs:<br>
+                        (234512,	32678)<br>
+                        (1112,	5054)<br>
+                        (-34567,0)<br>
+                        (28912,12892)</p>
+                    <a href="https://drive.google.com/file/d/1J3Rzeo-MyYaZWNSrTuQUJ9v-K85pTYYn/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question9">
+                    <a class="accordian-link" href="#question9">
+                    Problem 9
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p> Write a function named test_fn(.) such that given x, and 
+                        parameters a, b and c as inputs it computes the 
+                        following:<br>
+                       <br>
+                       a.x2.sin(x)+b.x.ln(x)+c.cosh(x)<br>
+                       <br>
+                       Write a main function which computes the definite 
+                       integral of the above function (given its parameters) 
+                       in the interval [m,n] (m< n) in real axis by using the 
+                       following computational method.<br>
+                       <br>
+                       For a function f(x), the integration of f(x) from x=m <br>
+                       to x=n (m< n), is given by as follows:<br>
+                       <br>
+                        h=(n-m)/N (for sufficiently large N).<br>
+                        Integral value=h(f(m)+2f(m+h)+2f(m+2h)+….+2f(m+(N-1).h)+f(n))<br>
+                       <br>
+                       Provide results for the following set of inputs:<br>
+                       (i) a=-5,	b=0,	c=20,	m=23,	n=80<br>
+                       (ii) a=5,	b=10,	c=2,	m=5,	n=10<br>
+                       (iii) a=5,	b=-10,	c=4.5,	m=7.8,	n=20.5</p>
+                    <a href="https://drive.google.com/file/d/1_sVMVV4nF1nMepHiZIlZE0Gf3IJsXb-j/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question10">
+                    <a class="accordian-link" href="#question10">
+                    Problem 10
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program with two functions using appropriate parameter passing and return 
+                        value as described below:<br>
+                         (i) recursive_fn (), which computes f(n) recursively as defined below:<br>
+                         <br>f(n) = 0, for n< 0<br>
+                              = 1, for n=0<br>
+                              = f(n-2) -2* f(n-1) + f(n-3), otherwise<br>
+                        Note that n is an integer argument and f(n) returns an integer value.<br> 
+                        <br>
+                        (ii) iterative_fn(.): It implements the same function f(n) without using a recursive call.
+                        Using above two functions separately compute the following expression Sum
+                        separately:<br>
+                              <br> Sum = f(0)+f(1)+f(2)+ ….. for M terms (M to be read in the beginning)<br>
+                        Finally the program prints the following:<br>
+                         (i) Sum computed using recursion, and the number of calls to recursive_fn(.), made 
+                        while computing it.<br>
+                        (ii) Sum computed using iteration, and the number of calls to iterative_fn(.), made 
+                        while computing it.<br>
+                         Show outputs for M=5, 10, 15 and 20.</p>
+                    <a href="https://drive.google.com/file/d/1rnL3frCh1efnks2F615W8GheC6jlOvVz/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question11">
+                    <a class="accordian-link" href="#question11">
+                    Problem 11
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a function computeStatistics(.) with appropriate parameter passing and return 
+                        values, which takes an array of real numbers, and return its mean, and standard deviation, 
+                        using pointer argument variables. <br>Write a main program, which reads two lists of real 
+                        numbers, say list1 and list2, with the numbers of elements N1 (to be read before reading 
+                        list1) and N2 (to be read before reading list2), respectively.<br> The program computes their 
+                        means and standard deviations using the function computeStatistics(.). Let m1, and m2 be 
+                        means and, s1 and s2 be standard deviations of list1 and list2, respectively. The program also 
+                        computes the following statistics T using them:<br>
+                         T= (m1-m2)/ √ (s1^2/N1+s2^2/N2)<br>
+                        The program prints the following:<br>
+                         (i) Number of elements, mean and standard deviation of list1.<br>
+                         (ii) Number of elements, mean and standard deviation of list2.<br>
+                         (iii) The statistics T.<br>
+                        <br>
+                        Show your outputs with the following input dataset:<br>
+                        <br>
+                        (i) list1: N1: 5<br>
+                         46.5, 78.9, -3.5, 4.9, 12.3<br>
+                         list2: N2: 10<br>
+                         26.4, 88.1, -34.7, -40.2, 222.3, 56.4, 12.4, 43.2, -35.7, -88.8<br>
+                         <br>
+                        (ii) list1: N1: 10<br>
+                         36.2, 68.5, 331.3, -44.4, -220.4, -66.2, -120.8, 430.3, -432.9, -45.7<br>
+                         list2: N2: 15<br>
+                         16.4, 18.1, -14.7, -43.2, 22.3, -156.2, 125.3, -143.2, -55.7, -78.8, 26.4, 18.2, -4.5, 7.9, 27.3<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1CeP6COGE5fesDyx1AluUbQ_FivhrIEdn/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question12">
+                    <a class="accordian-link" href="#question12">
+                    Problem 12
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write functions to return the area of a circle whose radius is supplied as an argument (circle_area()). <br>
+                        Write a main program to scan the input of the function and print the output of the function for that input.</p>
+                    <a href="https://drive.google.com/file/d/1EsWzNoZA9K_yeKHd8cnZJzqZBJsxd66K/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question13">
+                    <a class="accordian-link" href="#question13">
+                    Problem 13
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a function int digitsum(int x) to compute the sum of digits of x. Example: digitsum(1572) is 1 5. Write another function int eqdigitsum(int x, int y) to check if inputs x and y has equal digit sums.<br> The function returns 1, if x and y have same digit sum, and 0, otherwise.<br> The second function should call the first function.<br>
+                        Write a main function that does the following:<br>
+                        <br>
+                        i.	Read in an integer n (< 100). Read n integers and store them in an array.<br>
+                        ii.	In a nested loop, check all pair of array elements if they have equal digit sum using the function defined above. Print the indices if they have equal digit sum as <br>
+                        <br>
+                        you check a pair (one pair in a line without repeating pairs)<br>
+                        Test Example: For the input array A = {1 572, 2113, 2481,<br>
+                        2032}, the equal digit sum pairs are</p>
+                    <a href="https://drive.google.com/file/d/1rnoxUtghT6mRC-Mujab7ZE7rP9iyfuL7/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question14">
+                    <a class="accordian-link" href="#question14">
+                    Problem 14
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to read a character string and store it in an array. <br>Suppose the string stores a password. <br>A strong password should have at least 8 characters.
+                        <br> Also, it should have at least 1 numeral (0-9) and at least 1 upper case alphabet (A-Z).<br> <br>Print whether the input string is a strong password.</p>
+                    <a href="https://drive.google.com/file/d/1aeuVnunz9Tr25eXXwvCdo3zYVZ8Y79E5/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question15">
+                    <a class="accordian-link" href="#question15">
+                    Problem 15
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C function named int OddDigitCount(int n)<br><br>
+                        <br><br> The function takes as parameter one integer n, and returns the 
+                        number of odd digits in n<br><br>
+                         Note that for any integer k, k%10 gives the last digit, and k/10 
+                        gives the number without the last digit<br><br>
+                         Example, if k = 746, then k%10 = 6 (= last digit), and k/10 = 
+                        74 (= 746 without the last digit) in C (and not 74.6 as int/int 
+                        division truncates in C). You can now do 74%10 = 4 to get the 
+                        next digit and so on. Extract the digits in a while loop and 
+                        check them, keeping count of the odd digits found.<br><br> Work out 
+                        by hand with an actual number first to check till how far the 
+                        loop should go.<br><br>
+                         For example, if the parameter passed (n) is 1323, the function 
+                        returns 3 as there are 3 odd digits, 1, 3, and 3 in 1323. Similarly, if 
+                        the parameter passed (n) is 46, the function should return 0 as 
+                        there are no odd digits in 46<br><br>
+                         Write a main function that<br><br>
+                         Reads in an integer n (assume n < 100)<br><br>
+                         Reads in n integers in an array A (in a loop)<br><br>
+                         Prints the n integers in the array A (in a separate loop from read)<br><br>
+                         Prints the number of odd digits in each number in A and also, the 
+                        number in A with the maximum number of odd digits <br><br>
+                         Use another loop that calls the function OddDigitCount() with 
+                        each element of the array as parameter, and prints the return 
+                        value of the function for each element<br><br>
+                         Remember the maximum count found while looping, print it after 
+                        coming out of the loop<br><br>
+                         For example, if you read in 34, 1323, 50, 71 in array A, your output 
+                        should look like (number of spaces can vary):<br><br>
+                        34 1323 50 71<br><br>
+                        1 3 1 2<br><br>
+                        The number with maximum no. of odd digits is 1323</p>
+                    <a href="https://drive.google.com/file/d/1f6caUmLanGonEfoMOlyoC__EtpfIsy8H/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question16">
+                    <a class="accordian-link" href="#question16">
+                    Problem 16
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write C function <br><br>
+                        int CheckStr(char S1[ ], char S2[ ])<br><br>
+                        that takes as parameter two strings S1 and S2 of characters (null terminated, i.e., terminated by ‘\0’), and returns 1 if there exists any 
+                        combination of two characters in S1 (not necessarily consecutive) 
+                        such that the sum of their ascii codes is the same as the maximum 
+                        ascii code of any character in S2.<br><br>
+                         Example: <br><br>
+                         Suppose S1 = “023AZC” and S2 = “7pq”. Then maximum ascii code 
+                        of any character in S2 is 113 (the ascii code of ‘q’). Then the 
+                        function should return 1 as there exists a combination of two 
+                        characters in S1, ‘0’ (ascii code 48) and ‘A’ (ascii code 65) such that 
+                        their sum is = 48 + 65 = 113<br><br>
+                         Suppose now S1 is “02BZC”. S2 is the same. Then the function 
+                        should return 0 as there is no such combination of two characters in 
+                        S1 whose ascii code sum is = 113<br><br>
+                        <br><br>
+                         To write CheckStr(), do the following in this order:<br><br>
+                         Find the lengths of S1 and S2 and store in two variables. Print the 
+                        lengths of S1 and S2 with a message<br><br>
+                         Find the character with the maximum ascii code value in S2. Print 
+                        both the character and its ascii code with a message<br><br>
+                         Look at all possible pairs of characters in S1 (two nested loops). 
+                        For each pair considered inside the loop:<br><br>
+                         Sum the ascii codes of the two characters, and print the two 
+                        characters and their ascii code sum <br><br>
+                         Then compare the sum with the max ascii code value of S2 
+                        found earlier<br><br>
+                         If found, return 1 immediately<br><br>
+                         If not found, go to the next pair and check<br><br>
+                         Return 0 at end of the function after coming out of al loops if 
+                        no pair is found Write a main function that <br><br>
+                         Reads two strings X1 and X2 from the keyboard using %s in 
+                        scanf. Assume that the strings will be of less than 100 
+                        characters each<br><br>
+                         Calls the function CheckStr() with X1 and X2 as parameters, 
+                        and prints a nice message based on the return value<br><br>
+                         It is ok to print just whether there exists such a 
+                        combination, the actual combination need not be printed if 
+                        the function returns 1<br><br>
+                         Do NOT use the ascii code values directly (like 48, 49, 65 etc.) 
+                        anywhere in your program, 50% penalty if used<br><br>
+                         Your don’t need to, as characters are stored inside by their integer 
+                        ascii codes, and can be compared or added directly (like ‘a’ + ‘c’, if 
+                        (ch > ‘a’) etc.<br><br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/14GY9lhY8pDROmg6IDRkLwaBI0JZzoNZB/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question17">
+                    <a class="accordian-link" href="#question17">
+                    Problem 17
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to take input a series of characters as a string. For each character in the string
+                        find out the reverse of the ASCII value of that character and determine whether the reverse
+                        value itself forms a valid character or not. Valid characters include special symbols, space, digits
+                        and alphabets (both upper and lower case). Corresponding to each character in the original
+                        string, print the reverse value character, if it exists, otherwise print ”NA”.<br><br>
+                        <br><br>
+                        (a) Use a function int reverse(int) to reverse a particular number.<br><br>
+                        (b) Use another function int isValid(int), that returns ’1’ if the number in its parameter is a valid printable character, otherwise ’0’.<br><br>
+                        <br><br>
+                        For example, take A as input. ASCII value of ’A’ is 65 and reverse of the ASCII value is 56
+                        which represents number ’8’. Therefore, the character corresponding to the reverse ASCII value
+                        is valid.<br><br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1R1YsmMQbrBiPfZLV31bCn9OCqKqIvh9v/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question18">
+                    <a class="accordian-link" href="#question18">
+                    Problem 18
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a recursive function to compute x
+                        n based on the following definition using suitable base
+                        cases.<br><br>
+                        <br><br>
+                        x^n ={<br><br>
+                            x^n/2 ∗ x^x/2 <br><br>       if n is even<br><br>
+                            <br><br>x ∗ x^n/2 ∗ x^x/2 <br><br>   if n is odd <br><br>
+                            }</p>
+                    <a href="https://drive.google.com/file/d/1bWJRry064EBADoBeFfJBzC4KSG6h6nU3/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question19">
+                    <a class="accordian-link" href="#question19">
+                    Problem 19
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to take input your date of birth as dd-mm-yyyy (all integers) and print the
+                        following:<br><br>
+                        (a) Print the binary equivalent of the day ’dd’.<br><br>
+                        (b) Print the octal equivalent of the month ’mm’.<br><br>
+                        (c) Print the hexadecimal equivalent of the year ’yyyy’.<br><br>
+                        (d) Print the number of days between the day dd and January 1 of that year (consider the case of leap year as well).
+                        You have to use separate functions for integer to binary conversion, integer to octal conversion,
+                        integer to hexadecimal conversion and to calculate the difference in days that you should call
+                        from main().</p>
+                    <a href="https://drive.google.com/file/d/1lauZRuIqX5BG1D_gBQZDmFJjjQfQoCK1/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question20">
+                    <a class="accordian-link" href="#question20">
+                    Problem 20
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>User gives a positive integer, n (>2), as input. <br><br>
+                        Your program should print all the prime numbers up to n. <br><br>
+                        For this you should write a function isPrime(int k) that will check whether or not a number k is prime, and return 1 or 0 accordingly to 
+                        main(). <br><br>
+                        
+                        This function should be called inside a for loop in main() for k=3 to n. <br><br>
+                        You can use sqrt function of math.h.<br><br>
+                        <br><br>
+                        Examples: <br><br>
+                         <br><br>
+                        Enter a number (n>2): 6 <br><br>
+                        35 <br><br>
+                        Total number of primes = 3 <br><br>
+                        <br><br>
+                         
+                        Enter a number (n>2): 20 <br><br>
+                        357 11 13 17 19 <br><br>
+                        Total number of primes = 8 <br><br>
+                        <br><br>
+                         
+                        Enter a number (n>2): 100 <br><br>
+                        357 11 13 17 19 23 29 31 37 41 43 47 <br><br>
+                        53 59 61 67 71 73 79 83 89 97 <br><br>
+                        Total number of primes = 25 <br><br>
+                        <br><br>
+                         
+                        Enter a number (n>2): 123 <br><br>
+                        357 11 13 17 19 23 29 31 37 41 43 47 <br><br>
+                        53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 <br><br>
+                        Total number of primes = 30 </p>
+                    <a href="https://drive.google.com/file/d/1Eo1Ha0yke_TtkpEADGfCJdKsPOslCEv3/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question21">
+                    <a class="accordian-link" href="#question21">
+                    Problem 21
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Given three lines of the form ax+by=c, your program has to compute their points of intersection and hence the area of the triangle 
+                        described by them. Take the co-efficients (a, b, c) of each line in main(). <br><br>
+                        For this, write a function that takes as input (as parameter) the coefficients (a,b,c) of two lines and computes their intersection point if 
+                        they are not mutually parallel. Call this function three times from main() and print required results (intersection points, side length, area, 
+                        messages etc) in main() as shown in examples. You may use an array to pass the intersection points from function to main(). <br><br>
+                        You can use sqrt function of math.h. <br><br>
+                        <br><br>
+                        Examples: <br><br>
+                         <br><br>
+                        Enter the coefficients (a, b, c) of three lines: <br><br>
+                        Line 1: 100 <br><br>
+                        Line 2:01 0 <br><br>
+                        Line 3: 111 <br><br>
+                        Point of intersection between Ll and L2 = (0.000000, -0.000000). <br><br>
+                        Point of intersection between L2 and L3 = (1.000000, 0.000000). <br><br>
+                        Point of intersection between L3 and Ll <br><br>
+                        = (-0.000000, 1.000000). <br><br>
+                        Side lengths = 1.000000, 1.414214, 1 .OOOOOO. <br><br>
+                        Area = 0.500000 <br><br>
+                         <br><br>
+                        Enter the coefficients (a, b, c) of three lines: <br><br>
+                        Line 1: 100 <br><br>
+                        Line 2: 101 <br><br>
+                        Line 3: 111 <br><br>
+                        Lines 1 and 2 are parallel; so no point of intersection. <br><br>
+                        
+                         <br><br>
+                        Enter the coefficients (a, b, c) of three lines: <br><br>
+                        Line 1: 1 -1 1 <br><br>
+                        Line 2: 1 -2-2 <br><br>
+                        Line 12 <br><br>
+                        Point of intersection between Ll and L2 = (4.000000, 3.000000).<br><br> 
+                        Point of intersection between L2 and L3 = (0.666667, 1.333333).<br><br> 
+                        Point of intersection between L3 and Ll <br><br>
+                        = (l .500000, 0.500000). <br><br>
+                        Side lengths = 3.726780, 1.178511, 3.535534. <br><br>
+                        Area = 2.083334 <br><br>
+                        <br><br>
+                         <br><br>
+                        Enter the coefficients (a, b, c) of three lines:<br><br> 
+                        Line 1: 1 -1 5 <br><br>
+                        Line 2: 1 2-10 <br><br>
+                        Line 1 10 <br><br>
+                        Point of intersection between Ll and <br><br>
+                        12 = (0.000000, -5.000000). <br><br>
+                        Point of intersection between L2 and <br><br>
+                        13 = (30.000000, -20.000000). <br><br>
+                        Point of intersection between L3 and <br><br>
+                        Ll = (7.500000, 2.500000). <br><br>
+                        Side lengths = 33.541019, 31.819805, 10.606602. <br><br>
+                        Area = 168.749924 </p>
+                    <a href="https://drive.google.com/file/d/10lhU1-HefjHtgpzTfyt7o7sRSL9YaXLT/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                
+
+                
+
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>

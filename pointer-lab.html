@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/document.png">
+</head>
+<body>
+
+    <nav class="navbar" >
+        <a href="index.html">
+            <img src="Images/logo-final.png"  class="logo-img">
+          </a>
+            <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+      
+              <li><a href="index.html">HOME</a> </li>
+                <li><a href="labprobs.html">LAB PROBS</a> </li>
+                  <li><a href="theoryprobs.html">THEORY PROBS</a> </li>
+                    <li><a href="doubtprobs.html">DOUBT PROBS</a> </li>
+            </ul>
+          </nav>
+    
+    <section class="questions">
+        <div class="container">
+            <div class="accordian">
+                <div class="accordian-item" id="question1">
+                    <a class="accordian-link" href="#question1">
+                        Problem 1
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Create a structure namely "Date" having data members as<br>
+                        i) day (1 to 31) ,<br>
+                        ii) month (jan,feb,.....dec) (string of three characters only) ,<br>
+                        iii) year (2020,2021)<br>
+                        Create another structure namely PDS_LAB_ASSIGNMENT having data
+                        members as<br>
+                        (i) Structure Date (details above)<br>
+                        (ii) topic (datatypes, arrays, functions , loops etc.) (input strings without spaces
+                        that will include only alphabets)<br>
+                        (iii) No of questions in each assignment<br>
+                        (iv) marks(floating-point) obtained in each assignment (out of 100).
+                        Input n number of assignments(array of structure PDS_LAB_ASSIGNMENT with
+                        size n) by taking value of n from user.<br>
+                        Calculate the following<br>
+                        a) Average marks obtained in all assignments.<br>
+                        b) Topics in which marks obtained are greater than average .c) Print date (DD.MON.YYYY) of the assignment which has the least number
+                        of questions.<br>
+                        d) Write a function marks_assignment that will return the index of the
+                        assignment whose topic name is provided by the user, print the marks
+                        corresponding to that topic in main function .(Hint Your can use strcmp
+                        function to compare the two strings)<br>
+                        e) Write a function print_data which returns the specific assignment from the
+                        array of assignments where the user provided date matches. This function
+                        should take the array of assignments, number of assignments and user
+                        specified date as input to the function. The returned assignment will be
+                        captured in the main() and print all the details of that assignment
+                        </p>
+                    <a href="https://drive.google.com/file/d/1gSKA9XAfVecQB-tUWWfqg4YMNWgKYVqt/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question2">
+                    <a class="accordian-link" href="#question2">
+                    Problem 2
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Take an integer array as input from the user. Write a recursive function to find the
+                        absolute difference of the consecutive two elements in that array from beginning to end
+                        of the array.<br> To solve this problem, you need to write 2 functions: Function-1 computes
+                        the absolute difference between 2 numbers and return the same.<br> Function-2 is a
+                        recursive function which computes the successive differences between the elements of
+                        an array from beginning to end of an array. Function-2 uses the Function-1 for
+                        calculating the difference between 2 numbers, and it should take only the integer array
+                        and its size as input arguments.<br>
+                        Example:<br>
+                        Input: N=5<br>
+                        A[5] = {5,6,8,12,18}<br>
+                        Output: The absolute difference of 5 and 6 is:1<br>
+                        The absolute difference of 6 and 8 is:2<br>
+                        The absolute difference of 8 and 12 is:4<br>
+                        The absolute difference of 12 and 18 is:6</p>
+                    <a href="https://drive.google.com/file/d/1EJA74f8xvL4DcH-VCtnt0sy4hIultxqi/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question3">
+                    <a class="accordian-link" href="#question3">
+                    Problem 3
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program using recursive functions to compute the binary equivalent for a
+                        given decimal fractional number.<br>
+                        Hint: In the first step, separate integer and decimal parts of a given decimal fractional
+                        number. For each part write a separate C recursive function. void int_to_bin(int, int[]),
+                        void frac_to_bin(int, int[]). <br>Consider the max size of the array is 16 for storing the binary
+                        equivalents of integer and fractional parts. While printing the binary equivalent of a
+                        given decimal fractional number in the main(), only required portion of binary digits to be
+                        displayed.<br>
+                        EX: Decimal Number = 13.625<br>
+                        Equivalent binary number = 1101.101<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1t_p46QuHlyv9ybQQP2fyOlMbfis5R8f0/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question4">
+                    <a class="accordian-link" href="#question4">
+                    Problem 4
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to carry out the following:<br>
+                        (i) Input an array of positive integers int* input_array(int*, int*), whose size is controlled by either
+                        some maximum size or entry of a negative integer. The function should return the size of the
+                        input array.<br>
+                        (ii) Reverse the array using int* reverse_array(int*, int*).<br>
+                        (iii) Check whether the array elements are unique or duplicate int* check_unique_array(int *, int
+                        *).<br><br>
+                        Note: Use pointers for all operations.<br>
+                        Example:<br>
+                        Max size of an array = 10<br>
+                        Enter array elements = 23, 64, 998, 7, 23, -99<br>
+                        Length of the array = 5<br>
+                        Reversed array = 23, 7, 998, 64, 23<br>
+                        Array elements are not unique.</p>
+                    <a href="https://drive.google.com/file/d/1zU4ZlVeAwLQp-BhX2aIP-KzML9K3iOwE/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question5">
+                    <a class="accordian-link" href="#question5">
+                    Problem 5
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to do the following using appropriate C functions:- (Use Pointers)<br>
+                        (i) Enter the input string without spaces char* enter_string()<br>
+                        (ii) Print the string void print_string(char*);<br>
+                        (iii) Compute number of vowels and consonants in the input string void
+                        compute_vowel_consonant(char*, int*, int*)<br>
+                        (iv) Print all permutations of a given string void permute_string(char*) ( Use Pointers to swap
+                        characters)<br><br>
+                        Example:<br>
+                        Input String = abcd<br>
+                        Number of vowels = 1<br>
+                        Number of Consonants = 3<br>
+                        Permutations of the string abcd = abcd abdc acbd acdb adcb adbc bacd badc bcad bcda<br>
+                        bdca bdac cbad cbda cabd cadb cdab cdba dbca dbac dcba dcab dacb dabc</p>
+                    <a href="https://drive.google.com/file/d/12L42of6WwioXAWkMC2A0pJFOCm61NVv5/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question6">
+                    <a class="accordian-link" href="#question6">
+                    Problem 6
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write the following C functions in the context of accessing Structure datatypes (using
+                        pointers)<br>
+                        (i) Function to read (input) multiple student records {int *roll_no, char *name, int *marks, int
+                        *total_marks} from keyboard.<br>
+                        (ii) Function to compute total marks for each student and update in the record.<br>
+                        (iii) Function for sorting the student records based on total marks struct student*
+                        sort_student_record(struct student*, int*)<br>
+                        Demonstrate the above functions by printing the original student records as well as sorted
+                        records.<br>
+                        Example:<br>
+                        Original Student Records:<br>
+                        Student [1] = 21 aaaaaa 93 85 78 256<br>
+                        Student [2] = 22 bbbbbb 73 65 68 206<br>
+                        Student [3] = 23 ccccccc 93 95 88 276<br>
+                        <br>
+                        Sorted Student Records:<br>
+                        <br>
+                        Student [1] = 22 bbbbbb 73 65 68 206<br>
+                        Student [2] = 21 aaaaaa 93 85 78 256<br>
+                        Student [3] = 23 ccccccc 93 95 88 276</p>
+                    <a href="https://drive.google.com/file/d/1ePys3-2Me2iAP72G7j6OwC_K0hhK8PKl/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question7">
+                    <a class="accordian-link" href="#question7">
+                    Problem 7
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define	a	data	type	named	_VECTOR	containing	the	following	information.
+                        dim:	An	integer	denoting	the	dimension	of	the	vector	(assume	maximum	dimension	could	be	
+                        100).<br>
+                        <br>
+                        field:	An	array	of	real	numbers	implementing	the	vector	of	dimension	of	size	given	in	dim.<br>
+                        <br>
+                        Write	a	program	which	reads	two	vectors	of	dimension	N1	and	N2,	respectively,	and	
+                        compute	their	dot	products,	and	the	angle	formed	by	them	in	degree. If	the	dimensions	do	
+                        not	match,	it	prints	an	error	message	“Dimension	Mismatch.”<br>
+                        <br>
+                        Run	your	program	with	the	following	input	data.<br>
+                            <br>(i)	N1=3<br>
+                               (1.5,	-4.5,	2.8),<br>	
+                                N2=3<br>
+                                (1.6,	0,	-4.8)<br>
+                            <br>(ii)N1=2<br>
+                                (1.5,	1.8),<br>	
+                                N2=2<br>
+                                (1.8,	-1.5)<br>
+                            <br>(iii)	N1=4<br>
+                                (1,	2,	3,	4),<br>	
+                                N2=4<br>
+                                 (1,	-2,	3,	-4)<br>
+                            <br>(iv)N1=2<br>
+                                (1.5,	1.8),	<br>
+                                N2=4<br>
+                                (1,	-2,	3,	-4)<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1Jc3_UL_wacR4MeHRVw8EqNhyP2VWk38R/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question8">
+                    <a class="accordian-link" href="#question8">
+                    Problem 8
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define	a	data	type	named	_STUDENT,	which	should	contain	record	of	a	student	with	the	
+                        following	information:<br>
+                        <br>
+                        Roll_Number:	A	string	of	alpha-numeric	characters	of	length	8.<br>
+                        Name:	A	string	of	maximum	100	characters.<br>
+                        Age:	An	integer<br>
+                        Gender:	A	character<br>
+                        CGPA:	A	real number.<br>
+                        <br>
+                        Write	a	program	to	declare	an	array	of	_STUDENT	data	type	capable	of	storing	records	of	
+                        maximum	100	students.	<br>The	program	should	read	records	of	N	(to	be	read)	students	and	
+                        print	the	record	of	a	student	who	has	the	highest	CGPA.<br>	If	there	are	ties	in	top	positions,	the	
+                        program	will	print	all	the	records	in	ascending	order	of	their	ages.<br>	The	program	should	be	
+                        written	by	implementing		functions	named compute_top_cgpa(.),	store_array_of_toppers(.),	
+                        and	print_array_of_students(.),	respectively	 for	(i)	computing	the	top	CGPA	from	an	array	of	
+                        structures,	(ii)	storing	information	of	students	who	are	toppers	in		a	separate	array,	and	(iii)	
+                        printing	the	records	of	an	array	in	ascending	order	of	ages.	These	functions	are	to	be	called		
+                        in	the	main(.) function<br>
+                        <br>
+                        Run	your	program	with	the	following	input	data:<br>
+                        (i) N=5<br>
+                           16CS1001,	Narendra	Mishra,	18,	M,	7.58<br>
+                           16AE3025,	Asha	Saxena,	19,	F,	8.42<br>
+                           15IE1023,	Akbar	Khan,	20,	M,	8.10<br>
+                           15ER2015,	Kathy Lier,	19,	F,	7.86<br>
+                           16IE1024,	Imran	Hossain,	18,	M,	8.35<br>
+                        <br><br>
+                        (ii) N=10<br>
+                           16CS1001,	Narendra	Mishra,	18,	M,	7.58<br>
+                           16AE3025,	Asha	Saxena,	19,	F,	8.42<br>
+                           15IE1023,	Akbar	Khan,	20,	M,	8.10<br>
+                           15ER2015,	John	Smith,	19, M,	 7.86<br>
+                           16IE1024,	Imran	Hossain,	18, M,	 8.35<br>
+                           14CS1035,	Jayashree	Mandal,	21,	F,	9.56<br>
+                           15EC2045,	Shovna Sadhukhan,	20,	F,	8.87<br>
+                           15CH2035,	Rizia	Akhtar,	19,	F,	9.45<br>
+                           16CY1016,	Rashid	Khan,	18,	M,	9.56<br>
+                           16CS2041,	Ikaram	Tukra,	19,	M,	9.56<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1KOO1-4pDMNx_hOffXpXqJDXLCzHourFW/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question9">
+                    <a class="accordian-link" href="#question9">
+                    Problem 9
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>he choose function C(n,k) defines the number of ways k items can be chosen from a set of n items.<br>
+                        Mathematically, it is defined as C(n,k) = n!/(k!(n-k)!).<br>
+                        Recursively, it can be defined as C(n,k) = (n/k) * C(n- l,k-l). Write a recursive function that computes the above mathematical function. Make sure that you cover the base cases.<br>
+                        <br>
+                        Write a program to test the above function. The program inputs n and k and outputs C(n,k). Assume that n k and both n and k are positive integers.</p>
+                    <a href="https://drive.google.com/file/d/1ZkWH4CiOZgXT7rW3sfgjmBqUjARR4dtV/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question10">
+                    <a class="accordian-link" href="#question10">
+                    Problem 10
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure to represent a circle in terms of coordinates of its centre (a, b) and its radius r. Assume these values to be float.<br>
+<br>
+                        In the main program input six numbers al, b], rl, a2, b2, r2, and store them in two such structure variables. <br>Write a function which takes as input two such structure variables and returns 1 if the circles intersect, 0 if they touch at a point, and -1 if they do not intersect.<br>
+                        <br>
+                        In the main program call this function and print if the input circles, intersect, touch at a point, or do not intersect.<br>
+                        
+                        </p>
+                    <a href="https://drive.google.com/file/d/1__GurOOoTdKe5_ZkVpBdZ01C5oTpCBI9/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question11">
+                    <a class="accordian-link" href="#question11">
+                    Problem 11
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>An axis-parallel rectangle can be specified by four real numbers representing the coordinates of left-bottom and top-right corners. Define a structure to represent a rectangle using four float variables<br>
+<br>
+                        Write a function that, upon input an axis parallel rectangle, returns the area of the rectangle.<br>
+                        <br>
+                        Write a function that, upon input a valid rectangle and two real numbers x, y, returns whether the point (x, y) lies inside, on or outside the rectangle (1, 0, -1, values should be returned).<br>
+                        
+                        From the main program read the rectangle and point parameters, and call the functions. Print output of each function
+                        </p>
+                    <a href="https://drive.google.com/file/d/1mfd_I0YFNLBFojzQ1caKbSCheShtuhss/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question12">
+                    <a class="accordian-link" href="#question12">
+                    Problem 12
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to read an integer n (< 100) then read n number of o's and I's.<br>
+                         Store them in an integer array  Assume that B stores an unsigned n bit binary number. <br>
+                         The most significant bit is the first number (0/1) read and the least significant bit is the last number (0/1) read.<br><br>
+                          Now write a function int bin2dec(int n, int *B) which converts the binary number to its decimal equivalent.<br>
+                         Call the above function from main(). Print both the binary number and its decimal equivalent.</p>
+                    <a href="https://drive.google.com/file/d/1xXKkinz9PFC0aPEeuFtkpiZkHoko5Z9Y/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question13">
+                    <a class="accordian-link" href="#question13">
+                    Problem 13
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Input two strings s and t from the user. Assume that the strings do not contain blank or any whitespace character.<br> Write a function that finds if s is a palindrome of t, i.e., whether the reverse of s is equal to t. If it is a palindrome, return 1; otherwise, return 0.<br>
+<br>
+                        The parameters of the function contains only pointers to characters (not arrays):<br>
+                        int ispalindrome(char *s, char *t)<br>
+                        <br>
+                        Do not use any string library functions. In the main function read two strings. Call the above function and print its output.<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/15W-gBuCdnhjM1Wg3l2zmghCf9Bhk0afB/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question14">
+                    <a class="accordian-link" href="#question14">
+                    Problem 14
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A submission in PDS Lab is represented by two parameters, an integer assignment number (an), and an integer roll number (rn). Define a structure submis to represent a submission.<br>
+<br>
+                        Two submissions are duplicates if both their assignment numbers and roll numbers are identical.<br>
+                        Declare an array of the submis structure. Read an integer n (< 100). Read parameters for n submissions and store them in the array.<br>
+                        <br>
+                        The array can have multiple number of duplicate elements. You have to remove the multiple occurrences of duplicate elements and store the distinct elements in a new array B.
+                        <br>
+                        For example, if n = 3, array A = {(1, 21), (10, 22), (1, 21)}, then array B = {(1, 21), (10, 22)}.<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/14Dtu97d7YcSVQyWlG4s8Y6-ltSPbogH9/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question15">
+                    <a class="accordian-link" href="#question15">
+                    Problem 15
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A line segment can be defined by its two 
+                        endpoints<br>
+                         A rectangle is said to be axis-parallel if its sides 
+                        are parallel to the x and y-axis<br>
+                         An axis parallel rectangle can be fully defined by 
+                        two points – its top left corner point and bottom 
+                        right corner point• Define a C structure called line to store a line 
+                        segments<br>
+                        – i.e., store the x-y coordinates of its two endpoints<br>
+                        • Define a C structure named rectangle to store <br>
+                        an axis-parallel rectangle<br>
+                        – i.e. store the x-y coordinates of its top left and 
+                        bottom right corners<br>
+                        • Write a function <br>
+                         int Intersects(struct rectangle R, struct line L)<br>
+                         that takes an axis parallel rectangle R and a line 
+                        segment L parallel to x or y axis, and find the 
+                        number of points in which L cuts R<br>
+                        • Write a main function to do the following:<br>
+                        – Define a variable of type struct rectangle<br>
+                        – Define a variable of type struct line<br>
+                        – Read in the x-y coordinates of the two corners of 
+                        the rectangle<br>
+                        – Read in the x-y coordinates of the two endpoints of 
+                        the line segment<br>
+                        – Call Intersects( ) to find the number of intersections 
+                        between the rectangle and the line segmentS<br>
+                        – Print the number of intersections</p>
+                    <a href="https://drive.google.com/file/d/1U3IPH5OM7YsYzjVAlz0x5b4N7zycWILy/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question16">
+                    <a class="accordian-link" href="#question16">
+                    Problem 16
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A string X of length n is said to be a prefix of a string Y of length m if m ≥ 
+                        n and if the first n characters of y are the same as the characters of X. 
+                        For example, the string “khar” is a prefix of the string “kharagpur” and 
+                        the string “sun” is a prefix of the string “sun”.
+                        Write a recursive C function <br>
+                        int IsPrefix(char X[ ], int l1, int h1, char Y[ ], int l2, int h2)
+                        that returns 1 if the substring between index l1 and index h1 of X is a 
+                        prefix of the substring between index l2 and h2 of Y. The function 
+                        returns 0 otherwise.<br>
+                        <br>For ex, if X = “screaming” and Y = “dreaming”, then IsPrefix(X, 2, 5, Y, 1, 
+                        6) will check if the substring “ream” in X (X[2] to X[5]) is a prefix of the 
+                        substring “reamin” in Y (Y[1] to Y[6])
+                        Write a main function that <br>
+                         reads in two strings in two character arrays A and B using 
+                        the %s option in scanf. You can assume that the strings 
+                        will have at most 100 characters. <br>
+                         finds the length of the two strings.<br>
+                         calls the IsPrefix() function to find if the string in A is a 
+                        prefix of the string in B, and print a message appropriately.<br>
+                         If the length of A is p1, and the length of B is p2, you will 
+                        call IsPrefix() with the parameters (A, 0, p1 – 1, B, 0, p2 
+                        – 1).<br>
+                         All printings must be done from main, there should not be 
+                        anything printed inside the function.<br>
+                        <br>
+                         Hint:<br>
+                         First think of two complete strings and a recursive 
+                        formulation to define when is one a prefix of another<br>
+                         So if X =“khar”, and Y = “kharagpur”, for X to be a 
+                        prefix of Y, note that first letter of both has to be same 
+                        (‘k’) and the remaining part of X (“har”) has to be a 
+                        prefix of the remaining part of Y (“haragpur”). Do you 
+                        see the recursion now?<br>
+                         Then just use the same idea, but on the substrings 
+                        defined by the parameters<br>
+                         Decide what parameters to pass in the recursive call<br>
+                         Work with the above example to understand<br>
+                         For recursive calls made, store the return value in a 
+                        variable. Then think what to do with it</p>
+                    <a href="https://drive.google.com/file/d/1he97vo2TqH8-Ywzn0dhq_Mfbl_T0Ez8G/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question17">
+                    <a class="accordian-link" href="#question17">
+                    Problem 17
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Consider an array A of integers. You have to write 
+                        a C program to find the two numbers in A with 
+                        the smallest absolute difference among all such 
+                        pairs of number in A.<br>
+                        For example, if A = 2, 5, 0, 7, 3, then the two 
+                        required numbers are 2 and 3 (with absolute 
+                        difference = 1, which is smaller than the 
+                        absolute difference of any other pair of numbers 
+                        that you can choose in A).<br>
+                        <br>
+                         Write a C function 
+                        int FindDiff(int *X, int n, int *x1, int *x2)
+                        that takes as parameters an integer array X 
+                        with n elements, and does the following:<br>
+                         Returns the minimum absolute difference between any 
+                        pair of numbers in X<br>
+                         Returns the two numbers with this minimum difference 
+                        using x1 and x2<br>
+                         If there are more than one such pair of numbers, you <br>
+                        can return any one Write a main function that does the following:
+                         Read in an integer n<br>
+                         Dynamically allocate an integer array of size n 
+                        using malloc()<br>
+                         Read in n integers in the array A<br>
+                         Call FindDiff() to find the minimum absolute 
+                        difference<br>
+                         Print the difference, and the corresponding two 
+                        numbers, with an appropriate message<br>
+                        <br>
+                         If the array is 30, 10, 5, 20, 45, then your program should 
+                        print<br>
+                        The minimum absolute difference is 5 and the corresponding 
+                        numbers are 10 and 5
+                        <br>
+                         If the array is 30, 20, 5, 20, 35, then your program should 
+                        print<br>
+                        The minimum absolute difference is 0 and the corresponding 
+                        numbers are 20 and 20<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/11SwBDKKjAYdX7fscikOZnBLqqgY_SlIZ/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question18">
+                    <a class="accordian-link" href="#question18">
+                    Problem 18
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Consider a string of characters with no space 
+                        between them (for example, a word in English), 
+                        terminated by ‘\0’. You will write a C program to 
+                        count and print the maximum consecutive
+                        occurrence of the same character, and the 
+                        corresponding character. If there are multiple 
+                        characters that occur consecutively the same 
+                        number of times, you can print any one such 
+                        character.<br>
+                         <br>For example,  If the string is “aabbbccbbd”, then ‘a’ occurs two times 
+                        consecutively, ‘b’ occurs maximum of three times 
+                        consecutively, ‘c’ occurs two times consecutively, and ‘d’ 
+                        occurs one time consecutively. So you should output 
+                        the character ‘b’ and 3, since ‘b’ occurs the maximum 
+                        number of times consecutively among all characters<br><br>
+                         If the string is “pdslab”, there is no character that occurs 
+                        more than once consecutively. So in this case, you 
+                        should output the character ‘p’ and 1 (meaning that p 
+                        occurred the max times (=1) consecutively). Note that 
+                        you can also output any of the other characters in the 
+                        string (instead of ‘p’), as they all occur exactly once<br>
+                        <br>
+                         Write a C function int CountChar(char C[ ], char *mc) that 
+                        takes a string C of characters (terminated by ‘\0’) and 
+                        returns the count of the maximum number of consecutive 
+                        occurrence of the same character. It also puts the 
+                        character with this maximum in mc.<br>
+                        <br>
+                        Write a main function that does the following:<br>
+                         Reads in an integer n<br>
+                         Dynamically allocates a character array of size n<br>
+                         Read in a string using %s in scanf (assume size of string will 
+                        be < n)<br>
+                         Call CountChar() to find the maximum number of 
+                        consecutive occurrence of the same character in the string.<br>
+                         Prints the maximum count and the character with the 
+                        maximum count.<br>
+                        <br>
+                         If the string read is “aabbbccbbd”, your program should 
+                        print<br>
+                        The character with maximum consecutive occurrence is b, 
+                        with count 3<br>
+                        <br>
+                         If the string read is “aabbbccc”, your program should print 
+                        either <br>
+                        The character with maximum consecutive occurrence is b, 
+                        with count 3
+                        Or <br>
+                        The character with maximum consecutive occurrence is c, 
+                        with count 3
+                        as both b and c occur 3 times consecutively</p>
+                    <a href="https://drive.google.com/file/d/1rI47IT1jkatklSFvC86-7o6_m0FR3ZNM/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question19">
+                    <a class="accordian-link" href="#question19">
+                    Problem 19
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>XYZ Pvt. Ltd. stores the following information for 
+                        each of its employees:<br>
+                        – Name (max 20 characters including ‘\0’ at end), 
+                        employee code (integer), age (integer), salary (floating 
+                        point)<br>
+                         Define a C structure named employee to store this 
+                        data for each employee<br>
+                        <br>
+                         Write a function <br>
+                        int SearchEmpl(struct employee A[ ], int n, …) 
+                        that will search for an employee with a specific employee 
+                        code, and if found, will return his/her name, age and salary.<br>
+                         A is the array of employee structures containing the 
+                        records of all employees, and n is the number of such 
+                        structures in A<br>
+                         The return value should be 1 if the employee code 
+                        matches a structure, 0 otherwise<br>
+                         You will need to add other parameters required to return 
+                        the age, salary and name <br>
+                        <br>
+                        Write a main function that does the following:<br>
+                         Declares a pointer p to point to an employee structure<br>
+                         Reads in the number of employees n from the keyboard<br>
+                         Mallocs an array of n number of employee structures and stores the 
+                        return value of malloc in p<br>
+                         i.e., holds the information for n employees, one employee
+                        structure for each employee<br>
+                         This is your array of structures <br>
+                         Reads in the name, employee code, age, and salary for the n
+                        employees one by one in a loop<br>
+                         When you read the information for one employee, call the 
+                        SearchEmpl() function to check if the employee code already 
+                        exists. If yes, reject the information entered with a suitable 
+                        message and ask the user to enter the information for this 
+                        employee again.<br>
+                         So finally you should have entered the information of n
+                        employees with distinct employee codes Reads in a floating point number k and print the name, employee 
+                        code, age, and salary of all employees with salary > k<br>
+                         Compare the salary field of the employee structure of each 
+                        employee with k<br>
+                         Print the name, employee code, age, and salary fields if salary 
+                        field is > k<br>
+                         Print the information for each such employee in a separate line
+                         If there is no employee with salary > k, print a suitable message 
+                        saying so<br>
+                         Reads in an integer x<br>
+                         Call the SearchEmpl() function with appropriate parameters to find 
+                        if there is any employee with employee code x. If yes, print his/her 
+                        name, age, and salary with an appropriate message<br>
+                         If there is no employee with employee code x, print a suitable 
+                        message saying so<br>
+                        <br>
+                        Example<br>
+                         n = 4, <br>
+                         employee details read in array (< employee code, name, age, salary>)<br>
+                        < 1002, David, 32, 30000><br>
+                        < 1010, John, 36, 40000><br>
+                        < 1001, Mary, 35, 42000><br>
+                        < 1005, Tom, 40, 50000><br>
+                         k = 40000<br>
+                         x = 1001<br>
+                        Your program should print<br>
+                        Employees with salary greater than 40000 are<br>
+                        1001, Mary, 35, 42000<br>
+                        1005, Tom, 40, 50000<br>
+                        Employee with employee code 1001 is Mary, 35, 42000</p>
+                    <a href="https://drive.google.com/file/d/1HvXlmHz1-o2Iwmr1FhRSJljcfX5mLYD7/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question20">
+                    <a class="accordian-link" href="#question20">
+                    Problem 20
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Use structures in C programming to represent complex numbers with their real and imaginary
+                        parts [Hint: A complex number is denoted in the form X+iY, where X and Y are the real
+                        and imaginary parts.]. Input two complex numbers ‘a’ and ‘b’ from the user and perform the
+                        following operations on them.<br>
+                        (a) Add ‘a’ and ‘b’, and store the sum into a third complex number ‘c’. Print ‘a’, ‘b’, and ‘c’ in the format ‘X+iY’.<br>
+                        (b) Find out the magnitudes of ‘a’, ‘b’, and ‘c’ and print them. The magnitude of a complex number is sqrt(X2 + Y2).<br>
+                        (c) Find out the argument (or angle) of the three numbers ‘a’, ‘b’, and ‘c’. The argument of a complex number can be found out by performing tan−1(Y/X). 
+                        Use the function atan() from <math.h> for inverse tangent function.<br>
+                        Create user-defined functions for each of the aforementioned operations.<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1gBYsdWSZxR0Iu1wYJBvYQ2rJoIdIPZwJ/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question21">
+                    <a class="accordian-link" href="#question21">
+                    Problem 21
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Implement a movie ticket booking system for a multiplex. Input the number of screens in the
+                        multiplex from the user. Create an array of structures for the multiplex, in which each element
+                        represents a screen. The structure definition of each screen should have the following elements.<br>
+                        <br>
+                        • ID (integer not greater than number of screens)<br>
+                        • movie name (string of 20 characters max)<br>
+                        • remaining tickets (integer)<br>
+                        • ticket price (float)<br>
+                        • revenue earned (float).<br>
+                        
+                        Input the maximum tickets for each screen from the user. Write the following functions:<br>
+                        <br>
+                        (a) checkAvailability - Input the movie name from the user, print the number of tickets available
+                        and the price.<br>
+                        <br>
+                        (b) buyTicket - Input the movie name and number of tickets required from the user. Display
+                        total price if tickets are available (you may call the checkAvailability function here). Ask
+                        if the user wants to proceed. If the user agrees, print “Ticket booked”, reduce the number
+                        of available tickets, and increase the revenue earned by the ticket purchase amount.<br>
+                        <br>
+                        (c) totalRevenue - Print the total revenue earned and remaining tickets for each of the screens.
+                        You can use strcmp() to check equality of strings from < string.h>.<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1HjTclhGJ-mJAq0RB2LzumgvSMWU-jJ-B/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question22">
+                    <a class="accordian-link" href="#question22">
+                    Problem 22
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to –<br>
+                        (a) Input two strings from the user and store them in two different arrays. Print the contents
+                        and addresses of the first elements of the arrays.<br>
+                        (b) Define a function swapString() to swap the contents of the two arrays using pointers (by
+                        passing array pointers into the function).<br>
+                        (c) Print the contents and addresses of the first elements of the two swapped arrays from the
+                        main function.<br>
+                        Note: You cannot use any in-built function for swapping<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1Pnnkce2wBHENK3DH0K5W-3xG7h3Pbz4y/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                
+                <div class="accordian-item" id="question23">
+                    <a class="accordian-link" href="#question23">
+                    Problem 23
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to –<br>
+                        (a) Input 5 strings from the user.<br>
+                        (b) Define an array of pointers such that each element of the array points to each of the strings.<br>
+                        (c) Define a function f indLength() to find the length of each of the strings. Pass the strings
+                        to the function using the pointers.
+                        (d) Define a function f indP alindro<br>me() to find the first palindrome string in the array. Print
+                        the address of the first and last character of the palindrome string found (Pass the strings
+                        to the function using the pointers).<br>
+                        Note: You cannot use any in-built function for any subpart.</p>
+                    <a href="https://drive.google.com/file/d/1OGPYpYlALYrAkdzJU0A8qXJavptP-q5a/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question24">
+                    <a class="accordian-link" href="#question24">
+                    Problem 24
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Declare in main() two arrays a[ ] and b[ ] with 3 integers each, and fill up them using scanf().<br>
+<br>
+                        Write a function swap(int *x, int *y, int n) that swaps the first n elements of the array x[ ] with the first n elements of the array y[ ].<br>
+                        Print the addresses of all the elements of x[ ] and y[ ].<br>
+                        <br>
+                        Call swap() from main() to swap the first two elements of a[ ] with the first two elements of b[ ],<br>
+                        and print the elements of a[ ] and b[ ] from main(), along with their addresses.</p>
+                    <a href="https://drive.google.com/file/d/1ryUFgkkl_xd5QOpcCvIRc2EJ5eR8EfYY/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question25">
+                    <a class="accordian-link" href="#question25">
+                    Problem 25
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Declare in main() two integers a and b, and read their values using scanf().<br>
+<br>
+                        Write a function swap(int *x, int *y) that swaps the values stored at addresses x and y.<br>
+                        Print the addresses of x and y and the values (i.e., addresses) stored in x and y.<br>
+                        <br>
+                        Print the addresses of a and b in main().<br>
+                        Call swap() from main() to swap the values of a and b, and print them in main().<br>
+                        <br>
+                        Notice and explain yourself:<br>
+                        1. The values stored in x and y printed from swap() are ALWAYS same as the addresses of a and b in main().<br>
+                        2. The addresses in the following example may not match with those obtained by running the code on a different machine.<br>
+                        <br>
+                        
+                        Enter a, b: 2 5<br>
+                        <br>
+                        Addresses of a, b = 0x7ffccad073e0  0x7ffccad073e4<br>
+                        Addresses of x, y = 0x7ffccad073b8  0x7ffccad073b0<br>
+                        Addresses in x, y = 0x7ffccad073e0  0x7ffccad073e4<br>
+                        
+                        After swap: a, b = 5, 2.</p>
+                    <a href="https://drive.google.com/file/d/1rhzC7XT1K5llBNdtFQderCaOdm7n2NAe/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question26">
+                    <a class="accordian-link" href="#question26">
+                    Problem 26
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure named "student" with the following fields: name and surname of 15 characters each, and cgpa as a real number.<br>
+                        Write a swap function that takes as input two student pointers a and b, and exchanges the data in the student records pointed by them. The return type of this function should be void.<br>
+                        In main(), declare two student-type variables, a and b. Take user input to fill up their fields. Call the swap function to exchange their data and then print the result from the main(). <br>
+                        <br>
+                        
+                        Enter the name, surname, CGPA of 1st student: ram singh 7.5<br>
+                        Enter the name, surname, CGPA of 2nd student: alice miller 6.9<br>
+                        <br>
+                        After swapping:<br>
+                        <br>
+                        Student 1: alice miller 6.90<br>
+                        Student 2: ram singh 7.50<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1F7cipdy2MP8PCYVVAq6UhWkx_jUwjWyx/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question27">
+                    <a class="accordian-link" href="#question27">
+                    Problem 27
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Declare in main() two integer arrays a[] and b[] that can contain 100 numbers.<br>
+                        Take n as input and fill up a[] with n distinct integers using scanf().<br>
+                        <br>
+                        Write a function of the prototype:<br>
+                        int find_wrong_order(int *x, int *y, int n, int i)<br>
+                        that fills up y[] with those elements in {x[0],...,x[i-1]} that are larger than x[i] and
+                        those in {x[i+1],...,x[n-1]} that are smaller than x[i],<br>
+                        and returns the number of elements filled up in y[].<br>
+                        
+                        Call find_wrong_order() from main() iteratively for each element a[i], i=1,2,...,n,<br>
+                        and use b[] to print from main() the elements of b[] and a[i] as they appear in a[].<br>
+                        <br>
+                        
+                        Enter n: 3<br>
+                        Enter the elements of a[]: 2 1 3<br>
+                        [2] 1<br>
+                        2 [1]<br>
+                        [3]<br>
+                        
+                        <br>
+                        Enter n: 3<br>
+                        Enter the elements of a[]: 3 2 1<br>
+                        [3] 2 1<br>
+                        3 [2] 1<br>
+                        3 2 [1]<br>
+                        
+                        <br>
+                        Enter n: 3<br>
+                        Enter the elements of a[]: 1 2 3<br>
+                        [1]<br>
+                        [2]<br>
+                        [3]<br>
+                        
+                        <br>
+                        Enter n: 4<br>
+                        Enter the elements of a[]: 3 2 4 1<br>
+                        [3] 2 1<br>
+                        3 [2] 1<br>
+                        [4] 1<br>
+                        3 2 4 [1]<br>
+                        <br>
+                        
+                        Enter n: 5<br>
+                        Enter the elements of a[]: 7 2 6 3 4<br>
+                        [7] 2 6 3 4<br>
+                        7 [2]<br>
+                        7 [6] 3 4<br>
+                        7 6 [3]<br>
+                        <br>
+                        7 6 [4]<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/15QdootLmjmnddkIDzIVBpGt7uKWlYHRL/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question28">
+                    <a class="accordian-link" href="#question28">
+                    Problem 28
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure named student that contains the roll number (int), name, surname of a student, and his/her marks.<br>
+                        Read a file named stu.txt during execution of your program and populate an array of the structure student.<br>
+                        The first line of this file contains the number of students (max 100).<br>
+                        <br>
+                        Print the students (with short names) whose marks are lowest and highest.<br>
+                        Assume that they are unique.<br>
+                        <br>
+                        
+                        <br>
+                        Lowest:  V. Majety       41<br>
+                        Highest: J. Gupta        95</p>
+                    <a href="https://drive.google.com/file/d/1i-fhpY9-PGwbzl8dYk5JogiX2w79iTLB/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question29">
+                    <a class="accordian-link" href="#question29">
+                    Problem 29
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure called menu that contains the name of a food item (two strings) and its unit price (float).<br>
+<br>
+                        Read a file named menu.txt during execution of your program to store all menu items and their respective unit prices in an array of structure.<br>
+                        <br>
+                        Print on the terminal so that every item and its unit sale price (with 12.5% tax added) appear in a new line.<br>
+                        <br>
+                        Print only the veg items.<br>
+                        Note the formatting in the example.<br>
+                        <br>
+                        Assume that:<br>
+                        menu.txt contains the number of items in the 1st line.<br>
+                        menu.txt contains no more than 100 items.<br>
+                        How to take an input file (instead of terminal input) during execution of program: <br>
+                        
+                        
+                        <br>
+                         1: cheese steak -------------- 61.88<br>
+                         2: potato steak -------------- 45.00<br>
+                         3: veg steak ----------------- 50.62<br>
+                         4: chicken steaks ------------ 67.50<br>
+                         5: fried potato -------------- 39.38<br>
+                         6: veg sandwiches ------------ 56.25<br>
+                         7: cheese sandwiches --------- 73.12<br>
+                         8: egg sandwiches ------------ 73.12<br>
+                         9: chicken sandwiches -------- 90.00<br>
+                        10: burger veg ---------------- 73.12<br>
+                        11: cheese burger ------------- 84.38<br>
+                        12: chicken burger ------------ 84.38<br>
+                        13: green salads -------------- 45.00<br>
+                        14: lemon tea -----------------  5.62<br>
+                        15: milk tea ------------------  8.44<br>
+                        16: black tea -----------------  4.50<br>
+                        17: black coffee --------------  5.62<br>
+                        18: milk coffee ---------------  8.44<br>
+                        19: sweet small ---------------  4.50<br>
+                        20: sweet large ---------------  7.31<br>
+                        =====================================<br>
+                         3: veg steak ----------------- 50.62<br>
+                         6: veg sandwiches ------------ 56.25<br>
+                        10: burger veg ---------------- 73.12<br>
+                        =====================================<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/13vK-E-bIYtlJa6a6qVGsm75dbKYuoD5i/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question30">
+                    <a class="accordian-link" href="#question30">
+                    Problem 30
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure as:  struct point{float x, y;};<br>
+                        Write a function that takes two points as input and returns their distance to the calling function (e.g., main()); its prototype will be:<br>
+                        float calculate_distance(struct point p, struct point q)<br>
+                        <br>
+                        Declare an array of 100 points in main(): struct point a[100];<br>
+                        <br>
+                        Take n as the number of points, fill up the array, and find the minimum distance among the n points.<br>
+                        <br>
+                        
+                        Enter no. of points (2 to 100): 3<br>
+                        Enter (x,y) coordinates of the points:<br>
+                        0 0<br>
+                        3 3<br>
+                        2 2<br>
+                        Minimum inter-point distance = 1.414214<br>
+                        <br>
+                        Enter no. of points (2 to 100): 3<br>
+                        Enter (x,y) coordinates of the points:<br>
+                        0.1 0.2<br>
+                        3.1 3.2<br>
+                        2.1 2.2<br>
+                        Minimum inter-point distance = 1.414214<br>
+                        <br>
+                        
+                        Enter no. of points (2 to 100): 5<br>
+                        Enter (x,y) coordinates of the points:<br>
+                        11.11 22.22<br>
+                        22.22 33.33<br>
+                        33.33 44.44<br>
+                        44.44 55.55<br>
+                        55.55 66.66<br>
+                        Minimum inter-point distance = 15.711910</p>
+                    <a href="https://drive.google.com/file/d/1yZ1Sn9lxZUanaOra2xyKS75C-HDvkSPl/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question31">
+                    <a class="accordian-link" href="#question31">
+                    Problem 31
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>User gives a positive integer n (1 to 10) as input.<br>
+                        Your program should print all the numbers made of the digits 1 and 2 such that the sum of the digits is n.<br>
+                        It should also print the total number of such numbers at the end.<br>
+                        Use a recursive function and a global variable to keep track of the total.<br>
+                        You can use an array of length 10 but no other array.<br>
+                        <br>
+                        
+                        Enter n: 1<br>
+                        1<br>
+                        -----------<br>
+                        Total = 1<br>
+                        -----------<br>
+                        <br>
+                        
+                        Enter n: 2<br>
+                        2<br>
+                        11<br>
+                        -----------<br>
+                        Total = 2<br>
+                        -----------<br>
+                        <br>
+                        
+                        Enter n: 3<br>
+                        21<br>
+                        12<br>
+                        111<br>
+                        -----------<br>
+                        Total = 3<br>
+                        -----------<br>
+                        
+                        
+                        Enter n: 4<br>
+                        22<br>
+                        211<br>
+                        121<br>
+                        112<br>
+                        1111<br>
+                        -----------<br>
+                        Total = 5<br>
+                        -----------<br>
+                        <br>
+                        
+                        Enter n: 10<br>
+                        22222,  
+                        222211,  
+                        222121,  
+                        222112,  
+                        2221111,  
+                        221221,  
+                        221212,  
+                        2212111,  
+                        221122,  
+                        2211211,  
+                        2211121,  
+                        2211112,  
+                        22111111,  
+                        212221,  
+                        212212,  
+                        2122111,  
+                        212122,  
+                        2121211,  
+                        2121121,  
+                        2121112,  
+                        21211111,  
+                        211222,  
+                        2112211,  
+                        2112121,  
+                        2112112,  
+                        21121111,  
+                        2111221,  
+                        2111212,  
+                        21112111,  
+                        2111122,  
+                        21111211,  
+                        21111121,  
+                        21111112,  
+                        211111111,  
+                        122221,  
+                        122212,  
+                        1222111,  
+                        122122,  
+                        1221211,  
+                        1221121,  
+                        1221112,  
+                        12211111,  
+                        121222,  
+                        1212211,  
+                        1212121,  
+                        1212112,  
+                        12121111,  
+                        1211221,  
+                        1211212,  
+                        12112111,  
+                        1211122,  
+                        12111211,  
+                        12111121,  
+                        12111112,  
+                        121111111,  
+                        112222,  
+                        1122211,  
+                        1122121,  
+                        1122112,  
+                        11221111,  
+                        1121221,  
+                        1121212,  
+                        11212111,  
+                        1121122,  
+                        11211211,  
+                        11211121,  
+                        11211112,  
+                        112111111,  
+                        1112221,  
+                        1112212,  
+                        11122111,  
+                        1112122,  
+                        11121211,  
+                        11121121,  
+                        11121112,  
+                        111211111,  
+                        1111222,  
+                        11112211,  
+                        11112121,  
+                        11112112,  
+                        111121111,  
+                        11111221,  
+                        11111212,  
+                        111112111,  
+                        11111122,  
+                        111111211,  
+                        111111121,  
+                        111111112,  
+                        1111111111,  
+                        -----------<br>
+                        Total = 89<br>
+                        -----------<br>
+                        <br>
+                        <br>
+                        
+                        You're supposed to input the files stu.txt for w07-1 and menu.txt for w07-2. The output format must be exactly the same or marks would be deducted.
+                        </p>
+                    <a href="https://drive.google.com/file/d/1kui5JAbcjQBkmYCsl9F15rySJ4gri9OY/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question32">
+                    <a class="accordian-link" href="#question32">
+                    Problem 32
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a menu driven C program to keep records and perform statistical analysis for a class of 20 students. Each student attends in three 
+                        different subjects (Maths, Physics, Chem). The information of each student contains Roll number (ID, string), Name, marks in three 
+                        subjects and total score. <br>
+                        <br>
+                        The program will prompt the user to choose the operation on records from a menu as shown below: <br>
+                        1 . Add student records <br>
+                        2. Delete student records (by roll number) <br>
+                        3. Update student records (Donot update the roll#. Update name and marks only) <br>
+                        4. View all student records <br>
+                        5. Calculate an average of a selected (by ID) student's scores <br>
+                        6. Show student who gets the max total score <br>
+                        7. Show student who gets the min total score <br>
+                        8. Find student by ID (simple linear search) <br>
+                        9. Identify the student who got highest marks in a given subject. Subject name should be taken as input. <br>
+                        10. Exit <br>
+                        <br>
+                        Implement the student records using structure. Write suitable functions to implement the above tasks. <br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1hNLHLsK1_gnk4nL_irK5AYSx8kJHonor/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question33">
+                    <a class="accordian-link" href="#question33">
+                    Problem 33
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Declare an integer variable x and an integer pointer PX. <br>
+                        Assign the address of x to PX. <br>
+                        Assign a value to x taken as input from the user. <br>
+                        Print the address of x, the value of x, the address of PX, the content of PX, and the value stored in the address pointed by PX. <br>
+                        Now double the value of x. <br>
+                        Print again all the values and addresses, as mentioned above. <br>
+                        <br>
+                        Example: <br>
+                        bash-3.00$ gcc 7a.c <br>
+                        
+                        <br>
+                        Enter an integer: 5 <br>
+                        address of x = 134509512, x = 5 <br>
+                        address of = 134509508, = 134509512 <br>
+                        value stored in the address pointed by PX = 5 <br>
+                        
+                        <br>
+                        Enter an integer: 7 <br>
+                        address of x = 134509512, x = 7 <br>
+                        address of = 134509508, = 134509512 <br>
+                        value stored in the address pointed by PX = 7 </p>
+                    <a href="https://drive.google.com/file/d/1EuqItuVcD4ahuuvrF5k1vE5cNCiDz9p3/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question34">
+                    <a class="accordian-link" href="#question34">
+                    Problem 34
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Scan three integers as input in main() and store them in three variables, namely a, b, c. <br>
+                        Print their respective addresses and values. <br>
+                        Write a function with appropriate input parameters and call it from main() to rearrange the values of a, b, c, in non-decreasing order. <br>
+                        Print their respective addresses and values, from main(). <br>
+                        Notice that the addresses of a, b, c remain unchanged, but their respective values are now sorted in non-decreasing order. <br>
+                        <br>
+                        Example: <br>
+                        Enter three integers: 53 7 <br>
+                        --Before function call---- <br>
+                        Address of a = 341784 <br>
+                        Address of b = 341788 <br>
+                        Address of c = 341852 <br>
+                        Values in a, b, c = 5, 3, 7 <br>
+                        ---After function call---- <br>
+                        Address of a <br>
+                        = 341784 <br>
+                        Address of b <br>
+                        = 341788 <br>
+                        Address of c<br> 
+                        = 341852 <br>
+                        Values in a, b,c=3,5,7<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1fE-yKjVvR7yi1htntUwjt3P4fSagyAru/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question35">
+                    <a class="accordian-link" href="#question35">
+                    Problem 35
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Implement the "stack storage" using structure. In the "stack storage", you can insert and remove elements from only one end of 
+                        the stack, termed as stack 'top'.<br> The insertion of the element is called push and removal of the element is called pop. Hence, the 
+                        element, that you have pushed last, can be removed (popped) first (Last In First Out).<br> Write a C program to perform (1 ) push,(2) 
+                        pop and (3) top operations. You may take the option as the input from the user (as 1, 2 and 3) and perform the required 
+                        operations. The stack size is also taken from the user as an input value.<br> Push will take the input from the user and insert the 
+                        element in the stack.<br> Pop operation removes the element from the stack, also prints the removed element. In addition, 
+                        implement the top operation just to display the top element of the stack.<br> If there is no element in the stack, the pop operation 
+                        will return "Stack Underflow" and the top operation will return "No Data". If the stack size reaches the maximum limit, push 
+                        operation will return "Stack Overflow". <br>You should implement suitable functions to implement push, pop etc operations. The 
+                        stack structure should contain (a) an array to store the stack elements (b) stack top index. 
+                        <br>
+                        Example <br>
+                        <br>
+                        Enter Stack size n: 5 <br>
+                        Press 1 -> Push, 2 -> Pop, 3-> Top <br>
+                        Enter option: 3 <br>
+                        No Data <br>
+                        <br>
+                        Press 1 -> Push, 2 -> Pop, 3-> Top <br>
+                        Enter option: 2 <br>
+                        Stack Underflow <br>
+                        <br>
+                        Press 1 -> Push, 2 -> Pop, 3-> Top <br>
+                        Enter option: 1 </p>
+                    <a href="https://drive.google.com/file/d/13pLM_E97ptyrgYqmQV_Ml4lbwssLK7JU/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question36">
+                    <a class="accordian-link" href="#question36">
+                    Problem 36
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to implement a queue using structures. In queue, you have two ends, namely 'front' and 'rear'.<br> The elements can be inserted at the rear end and can be removed from the front end. <br>Hence, the element, that you have inserted first, will be removed first (First In First Out).
+<br>
+                        Write a program to implement a queue using structures. The structure will contain the list of elements (of size MAX) and the index of the front and rear element.<br> Implement enque() and deque() operations. Enque() function will take the input from the user and insert the element in the queue.<br> Deque() removes the element from the queue, also prints the removed element.<br>
+                        <br>
+                        Please remember, during enque(), the newly inserted element will be the rear element.<br> During deque(), the front element will be 
+                        removed.</p>
+                    <a href="https://drive.google.com/file/d/1MqDYmYAxKs2C6KbkNJrFa8ei0A7rJQlN/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>

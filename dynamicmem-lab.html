@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Images/document.png">
+</head>
+<body>
+
+    <nav class="navbar" >
+        <a href="index.html">
+            <img src="Images/logo-final.png"  class="logo-img">
+          </a>
+            <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-links">
+      
+              <li><a href="index.html">HOME</a> </li>
+                <li><a href="labprobs.html">LAB PROBS</a> </li>
+                  <li><a href="theoryprobs.html">THEORY PROBS</a> </li>
+                    <li><a href="doubtprobs.html">DOUBT PROBS</a> </li>
+            </ul>
+          </nav>
+    
+    <section class="questions">
+        <div class="container">
+            <div class="accordian">
+                <div class="accordian-item" id="question1">
+                    <a class="accordian-link" href="#question1">
+                        Problem 1
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program using dynamic memory allocation to perform the following:<br>
+                        a) Enter an integer n and allocate memory for n number(s) of int variable(s).<br> 
+                        b) Enter n elements and print them. <br>
+                        c) Enter new size, and reallocate memory accordingly. If the new size is greater than n, 
+                        then additional numbers (newsize - oldsize) are entered by user after reallocation. <br>
+                        d) Print all the elements after reallocation. [15 Marks]<br>
+                        Example:<br>
+                        Input : Enter the size of list : 5 <br>
+                        Enter the integers into list: 1 2 3 4 5 <br>
+                        The numbers in the list are: 1 2 3 4 5 <br>
+                        Case1: Enter the new size of the list: 8 <br>
+                        Enter 3 numbers: 6 7 8 <br>
+                        Output : The numbers in the list are: 1 2 3 4 5 6 7 8 <br>
+                        Case2: Enter the new size of the list: 3 <br>
+                        Output : The numbers in the list are: 1 2 3<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1JBsJDDXMIDzKrDrntMFiBAfl0uq17lKx/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question2">
+                    <a class="accordian-link" href="#question2">
+                    Problem 2
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to dynamically allocate a 2D Matrix for which the user inputs the 
+                        dimensions of the matrix. <br>
+                        a) Write a function to enter the elements of a matrix and return the matrix to main 
+                        function.<br>
+                        b) Write a function to print the elements of a matrix <br>
+                        c) Write a function to sort the elements of a matrix in ascending order and return the 
+                        sorted matrix to main ().<br>
+                        d) Print the elements of a sorted matrix.<br>
+                        e) Write a function to search the given key (through keyboard) row-wise using binary 
+                        search and return the key position in the matrix using row-col indices.<br>
+                        Example : [25 Marks]<br>
+                        Dimensions of matrix : <br>
+                        Rows = 3<br>
+                        Columns = 3<br>
+                        Enter the elements of a matrix <br>
+                        4 6 2<br>
+                        8 1 3<br>
+                        5 9 6<br>
+                        Matrix after arranging rows in ascending order<br>
+                        2 4 6<br>
+                        1 3 8<br>
+                        5 6 9<br>
+                        Search the key value in sorted matrix:<br>
+                        Key = 12
+                        Key is not present in the matrix
+                        Key = 6<br>
+                        Key is present in the matrix<br>
+                        Position of the key = (3,2)</p>
+                    <a href="https://drive.google.com/file/d/1Dosjs1TDHnKLO5_wugtTwewISzNL3usk/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question3">
+                    <a class="accordian-link" href="#question3">
+                    Problem 3
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program using pointers and dynamic memory allocation to perform the following: <br>
+                        (a) Enter the list of words through keyboard, where the size of the list N needs to be 
+                        specified by the user. Allocate the memory for each word as per its size.<br>
+                        (b) Once the list is available, sort the list.<br>
+                        (c) Split the sorted list into 2-D array based on the 1st character of the word.
+                        Example: [30 Marks]<br>
+                        Size of the list = 15<br>
+                        List of words = arabic, apple, xerox, puppy, box, baby, xxx, cat, cot, sun, cup, doctor, elephant, 
+                        danger, public
+                        List of sorted words = apple, arabic, baby, box, cat, cot, cup, danger, doctor, elephant, public, 
+                        puppy, sun, xerox, xxx<br>
+                        List of word in 2-D array = <br>
+                        apple, arabic
+                        baby, box
+                        cat, cot, cup
+                        danger, doctor
+                        elephant
+                        public, puppy
+                        sun
+                        xerox, xxx</p>
+                    <a href="https://drive.google.com/file/d/1Qm_nfuwaNiu4Q91mfjA6u5ua9m4HV0wc/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question4">
+                    <a class="accordian-link" href="#question4">
+                    Problem 4
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C Program to open a new file named int_file, and read N (N specified by the user) positive 
+                        integers from a keyboard and store them in int_file.<br> Read the integers from int_file one by one and 
+                        write them into three files even_file, odd_file and prime_file, based on the following constraint:<br> (i) 
+                        even_file and prime_file should contain only even and prime numbers, respectively. <br>(ii) The rest of 
+                        the numbers should present in odd_file. Finally display the contents of all four files created in the 
+                        following order: int_file, even_file, prime_file and odd_file. (15M)<br>
+                        Example:<br>
+                        N = 10<br>
+                        Contents of int_file = 23, 77, 46, 99, 113, 996, 105, 773, 103, 12<br>
+                        Contents of even_file = 46, 996, 12<br>
+                        Contents of prime_file = 23, 113, 773, 47<br>
+                        Contents of odd_file = 77, 99, 105</p>
+                    <a href="https://drive.google.com/file/d/1cfGtVBhAHHYJsyz_WGn07yAxH9KMwk1H/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question5">
+                    <a class="accordian-link" href="#question5">
+                    Problem 5
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C Program to open a new file named int_file, and read N (N specified
+                        by the user) positive integers from a keyboard and store them in int_file. <br>Read
+                        the integers from int_file one by one and write them into three files even_file,
+                        odd_file and prime_file, based on the following constraint:<br> (i) even_file and
+                        prime_file should contain only even and prime numbers, respectively.<br> (ii) The
+                        rest of the numbers should present in odd_file. Finally display the contents of
+                        all four files created in the following order: int_file, even_file, prime_file and
+                        odd_file. (15M)<br>
+                        Example:<br>
+                        N = 10<br>
+                        Contents of int_file = 23, 77, 46, 99, 113, 996, 105, 773, 103, 12<br>
+                        Contents of even_file = 46, 996, 12<br>
+                        Contents of prime_file = 23, 113, 773, 47<br>
+                        Contents of odd_file = 77, 99, 105</p>
+                    <a href="https://drive.google.com/file/d/1O9F8qUnTtvtJzcuzcvK6OiJAV4cA4DBd/view?usp=sharinghttps://drive.google.com/file/d/1EMnAbWyIe-3LOq5ZOHGFnTw-kLskhyQN/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question6">
+                    <a class="accordian-link" href="#question6">
+                    Problem 6
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to perform the following: (20M)<br>
+                        a. Consider an existing .c file, which contains some C program. Open the file
+                        and display its contents.<br>
+                        b. Write a C function to encrypt the contents of the .c file with the following
+                        encryption rule: Each character (source) of the file is replaced with a character
+                        (target) whose ASCII code is m (0< m<=10, the integer value of m will be
+                        provided by the user) more than the ASCII code of the source. The function
+                        should return the encrypted file to the main(). Print the encrypted contents of
+                        the file.<br>
+                        c. Write a C function to decrypt the encrypted file (encrypted by the key m)
+                        based on the user specified key n. If the user specified decrypted key match
+                        with encrypted key, then the original file contents can be recovered. The
+                        function should return the decrypted file to the main(). <br>Print the decrypted
+                        contents of the file, and demonstrate the decryption process.</p>
+                    <a href=https://drive.google.com/file/d/1O9F8qUnTtvtJzcuzcvK6OiJAV4cA4DBd/view?usp=sharing"" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question7">
+                    <a class="accordian-link" href="#question7">
+                    Problem 7
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A student has taken N tests (N is provided by the user through keyboard) in
+                        a particular subject, and their marks (range of marks = 0 - 100) have to be
+                        stored in two text files namely, list1_file and list2_file, in arbitrary manner
+                        specified by the user (say for example, user says marks of m tests (m< N) in
+                        one file and the rest N-m tests in another file).<br> Here, you need to open two new
+                        files and write the marks into these two files through keyboard by the user.
+                        Read the contents of two files having a list of m and N-m scores (marks),
+                        respectively, and display the same.<br> Merge the two lists in to a separate file
+                        merge_list and display the contents of merge_list file.<br> Sort the contents of
+                        merge_list file, and find the average of the top k (where k to be specified by the
+                        user, k<=N) scores of the merge_list file. Store the sorted marks and append
+                        the average of top k scores at the end of the file sorted_merge_file and display
+                        its contents. (30M)<br>
+                        Example: N = 12<br>
+                        Size of list1_file (m) = 5<br>
+                        Size of list2_file (N-m) = 7<br>
+                        Contents of list1_file = 54 76 88 47 97<br>
+                        Contents of list2_file = 24 62 90 70 91 66 84<br>
+                        Contents of merge_list = 54 76 88 47 97 24 62 90 70 91 66 84<br>
+                        Sorted list = 24 47 54 62 66 70 76 84 88 90 91 97<br>
+                        k = 5<br>
+                        Average of k top marks = 90<br>
+                        Contents of sort_merge_list file = 24 47 54 62 66 70 76 84 88 90 91 97 90<br>
+                        List1.txt: 54 76 88 47 97<br>
+                        List2.txt: 24 62 90 70 91 66 84<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1MTb-B0YpePo2Y0Umy3MiMN6dHJwNjsXp/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question8">
+                    <a class="accordian-link" href="#question8">
+                    Problem 8
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a C program to create a new file (with some file name) and enter the
+                        text through keyboard. Write appropriate C functions to determine and display
+                        the following contents of the file:<br>
+                        a. Display the file contents.b. The longest and the shortest words.<br>
+                        c. The words with the minimum and maximum number of vowels.<br>
+                        d. All repeated words. (35M)<br>
+                        Example: Suppose, a new file by the name “file.txt” is created and the
+                        following text is entered through the keyboard:<br>
+                        Congress MP, Sashi Tharoor used the following words to highlight the
+                        dishonesty of a journalist:<br> Exasperating farrago of distortions,
+                        misrepresentations and outright lies, being broadcast by an unprincipled
+                        showman masquerading as a journalist.<br>
+                        The output of the program on this file for questions a, b, c and d are as
+                        follows:<br>
+                        a. Congress MP, Sashi Tharoor used the following words to highlight the
+                        dishonesty of a journalist: Exasperating farrago of distortions,
+                        misrepresentations and outright lies, being broadcast by an unprincipled
+                        showman masquerading as a journalist.<br>
+                        b. The longest word is “misrepresentrations”. The shortest word is “a”.<br>
+                        c. The words with the minimum number of vowels are “MP”, “by”. The word
+                        with the maximum number of vowels is “misrepresentations”.<br>
+                        d. The repeated words are “the”, “a”</p>
+                    <a href=https://drive.google.com/file/d/1wCqNbC5pyKi8T0aTXeP1LAQlS_Et1XBr/view?usp=sharing"" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question9">
+                    <a class="accordian-link" href="#question9">
+                    Problem 9
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Extend 10(d) to perform the following. <br>
+                        Write a sorting function that takes as input an array s of students and the number of students.<br> 
+                        Its return type should be void. <br>
+                        It should call the swap function whenever needed. <br>
+                        <br>
+                        In main(), declare an array s of "student" structure. Populate this array from the input file. <br>
+                        The number of students is taken as input (n). <br>
+                        Sort s by nondecreasing order of CGPA of the students in s. <br>
+                        Print s on the terminal. <br>
+                        <br>
+                        Just after taking n as input, your program should also take as input for two real variables, u and v. <br>
+                        Call binary search function to find the student whose CGPA = u. <br>
+                        Finally, print all the students whose CGPA lies in the range [u,v].<br>
+                         </p>
+                    <a href="https://drive.google.com/file/d/1mnr_WeI_5PTyAZPJe3sgKze7YBGeJ6NL/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question10">
+                    <a class="accordian-link" href="#question10">
+                    Problem 10
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define	a	structure		_CAR which	stores	the	following	information:<br>
+                        (i) Model_name	(a	string	not	exceeding	10	characters without)<br>
+                        (ii) Name_Of_Manufacturer	(a	string	not	exceeding	10	characters)<br>
+                        (iii) Purchase_Price		in	Rupees	(of	float	data	type)<br>
+                        (iv) product_number	(a	string	not	exceeding	12	characters)<br>
+                        None	of	the	above	strings	has	any	blank	space	in	between.	For	example	a	record	 of	a	car	may	be	as	follows:<br>
+                        <br>
+                        Zen<br>
+                        Maruti<br>
+                        435000<br>
+                        1267980<br>
+                        
+                        Write	a	program	which	implements	the	following	function:<br>
+                        _CAR	read_record(	)	:	It		reads	a	record	of	car	from	the	keyboard	and	returns	the		
+                        record.<br>
+                        void	print_record(_CAR)	:	It	prints	all	information	related	to	a		record	in	a	single	line	
+                        passed	as	a	parameter. Each	information	unit		is	printed	separated	by	at	least	one	blank	
+                        space.<br>	
+                        For	example,<br>
+                                    Zen			<br>				Maruti		<br>			435000		<br>			1267980<br>
+                        _CAR  get_cheapest_car(_CAR	*):	It	 returns	the	cheapest	car	from	the	list	of	cars	
+                        passed	as	an	array	to	it.<br>
+                        _CAR		*sort_ car(_CAR	*):	It	 sorts	a	list	of	cars	in	descending	order	of	their	prices	and	
+                        returns	the	sorted	list.	<br>
+                        Write	a	main(.)	function	which	does	the	following	operations	in	a	sequence:<br>
+                            (i)	It	reads	information	of	N	(to	be	read	before)	cars,	<br>
+                            (ii)	It	prints	the	list	with	all	records	of	a	car	in	a	single	line,<br>
+                            (iii)	It	prints	the	information	related	to	the	cheapest	car.<br>
+                            (iv)	It	prints	distinct	car	models,	and	their	numbers	in	the	list.<br>
+                            (v)	It	prints	top	K	costly	models	of	cars	given	the	value	of	K.<br>
+                                                                                <br>
+                        Prepare	an	input	data	file,	which	should	have	the number	of	cars	in	the	first	line 		(value	of	N	
+                        to	be	taken	as	 20	with	at	least	10	different	models and at	least four different	manufacturers),	
+                        followed	by	information	related	to	 each	car	in	each	line.<br>
+                        <br>
+                        For	example	the information	of	a	list	of 3	cars	may		be	in	the	following	form.<br>
+                            3<br>
+                            Zen	 Maruti	 435000	 1267980<br>
+                            I20		Hundai		526000		7893451<br>
+                            Indigo		Tata-Motors		624000		6784532	<br>
+                        <br>
+                        The	program	displays	the	5	top	costly	models	of	 cars	from	your	input	list. Write	your	
+                        results	in	an	output	file. Submit	also	the	input	data	file	prepared	by	you. Use dynamic	memory	
+                        allocation	while	using	an	array	and		input-output	redirection	while	running the	program.<br>
+                        <br>
+                        
+                        </p>
+                    <a href="https://drive.google.com/file/d/1ApoNCe9J5j6p8OgKrwENjcB9GfTwyMYZ/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question11">
+                    <a class="accordian-link" href="#question11">
+                    Problem 11
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Read an integer n (< 100). Input an integer array Al] of n elements from the user. The array can have multiple occurrences of elements. You have to remove the multiple occurrences of elements and store the distinct elements in a new array. The memory for the new array has to be dynamically allocated using ma//oc such that its size is same as the number of distinct elements in AT].
+                        <br>For example, if array A is {3 	4 5 2 4 64 2 5 6 3 5} then the new array is {3 4 5 1 2 6} of size 6.
+                        </p>
+                    <a href="https://drive.google.com/file/d/1XRHQy3zo-rFIneTMBrrL0q4cUtwBFeNg/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question12">
+                    <a class="accordian-link" href="#question12">
+                    Problem 12
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program to read an integer array containing n (where n is input by user and < 100) elements.
+                         Also read a key k.<br> Now, print the elements of the array in ascending order of their absolute difference with the key k. 
+                         For example, if k = 3 and A[i] = -2, the absolute difference |k-A[i] = 5.<br> Assume that every element of the array is unique.
+                          You should use the insertion sort algorithm.<br>
+                    </p>
+                    <a href="https://drive.google.com/file/d/1iJhE8SCuZktkvRfhwX6aLjLo6bkdeAB8/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question13">
+                    <a class="accordian-link" href="#question13">
+                    Problem 13
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Write a program that inserts a new integer x to a sorted integer array A[ ] (ascending order), such that the array still remains sorted.<br> The size of A[ ] is n (< 100), value of n is read from user.<br>
+<br>
+                        Example, if A[] is {1,2,3, 4,6,7,8,9,10,1 1}, and x is 5. After insertion of x, the array A[] should be
+                        {1,2,3,4,5,6,7,8,9,10,1 1}. You have to insert in the original array, and cannot use a new array.<br>
+                        <br>
+                        In your program, n, A[ ] and x are first read from the user and then it should print the modified array.<br>
+                        Assume that no two entries in the array A[ ] have same values.<br> Also, the integer x, which is to be inserted, does not have a value which is same as any of the entries of the array 	before insertion.
+                        </p>
+                    <a href="https://drive.google.com/file/d/1D7MBoqd1kOJUWBZXGnsL0ZZT3V5DiSDN/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question14">
+                    <a class="accordian-link" href="#question14">
+                    Problem 14
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>A file input.dat stores two integers m (< 10) and n (< 10) in its first line. From next line onwards it stores a m x n integer matrix.<br>
+<br>
+                        Write a program which reads this m x n matrix and stores in a 2-D array <br>
+                        <br>
+                        The program should next transpose the matrix A and write it down in another file output.dat.<br> The new file should contain dimension of the transposed matrix in first line and the transposed matrix from next line onwards.
+                        </p>
+                    <a href="vhttps://drive.google.com/file/d/19GvmAyOgOaIAG-c5KX8HR0UUoDVz4c_H/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question15">
+                    <a class="accordian-link" href="#question15">
+                    Problem 15
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>An input file input.dat stores a single character string in a single line. Maximum length of the string is 100.<br> The program reads the character string stored in the input file. It then reverses the string excluding the leading and trailing blank spaces. <br>The program next writes the reversed string in the output file output.dat.<br> Example:
+                        Input file: illumination<br>
+                        Output file: noitanimulli<br>
+                        You can use any string library functions.</p>
+                    <a href=https://drive.google.com/file/d/1fjKPH-VcIOQGtyCiAHjtMVHCwN684vCl/view?usp=sharing"" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question16">
+                    <a class="accordian-link" href="#question16">
+                    Problem 16
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Suppose you have an input file input.dat. The input file can contain an arbitrary number of lines, each with an arbitrary number of characters.<br> Each line ends with the newline character ('\n')
+                        Write a program that converts all lowercase alphabets in the file to uppercase alphabets, leaving all other (nonlowercase alphabet) characters unchanged, and prints the modified file in the output file output.dat.<br> You should create the output file if it does not exist. You should use fgets() call to read from the input file (not fscanf).<br> You can use any string library functions.
+                        <br>
+                        For example if the input file contains: iit-kgp 2021 Pabitra Mitra<br>
+                        <br>
+                        Output file should contain:<br>
+                        IIT-KGP 2021<br>
+                        <br>
+                        PABITRA MITRA</p>
+                    <a href="https://drive.google.com/file/d/1zByicknFFyAEo93Q3CoWo67DHDg-ELjE/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question17">
+                    <a class="accordian-link" href="#question17">
+                    Problem 17
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Consider a m x n 2-d matrix A of integers. It is given that elements in 
+                        each row of the matrix are sorted in ascending order.<br> In this 
+                        assignment, you will sort the elements of the array such that elements 
+                        in each row are sorted in ascending order AND all elements in the 2nd
+                        row are ≥ any element in the 1st row, all elements in the 3rd row are ≥ 
+                        any element in the 2nd row, and so on.<br>
+                         See example on next slide<br>
+                         Obviously, this may move any element in the array from its current 
+                        position to any other position. That is ok.<br>
+                         The matrix elements will be given in a file (one row in each line), you 
+                        will read the matrix from the file<br>
+                         See text file infile.txt given containing the matrix in the example<br>
+                         You will write the sorted matrix in another file outfile.txt row by row 
+                        (one row per line)<br>
+                        <br>
+                        For example, if A is<br>
+                        1 5 10 12<br>
+                        4 6 7 9<br>
+                        1 5 8 10<br>
+                        then after sorting, A is modified to<br>
+                        1 1 4 5<br>
+                        5 6 7 8<br>
+                        9 10 10 12<br>
+                        <br>
+                         Write a C function void SortMatrix(…) that takes as parameter a 
+                        n x m 2-d array (n, m < 10) representing a matrix, and sorts the 
+                        matrix in the form as described. Add appropriate parameters to 
+                        the function for this.<br>
+                         You can use one additional array (1-d or 2-d) to sort.<br> 
+                         Given that the rows are already sorted in the matrix, you should use 
+                        concepts from mergesort. Otherwise there will be a small penalty of 20%.<br>
+                        <br>
+                        
+                         Write a main function that does the following:<br>
+                         Reads in the dimensions n and m of the matrix (n, m < 10) 
+                        from the keyboard<br>
+                         Opens the file named infile.txt to read it. If the file with that 
+                        name does not exist (fopen() call returns error), your program 
+                        should give an error message and exit<br>
+                         Reads in the matrix elements from the file<br>
+                         Calls SortMatrix() to sort the matrix as described<br>
+                         Opens a file named outfile.txt for write<br>
+                         Write the sorted matrix elements in the file outfile.txt<br>
+                         Closes both infile.txt and outfile.txt with fclose() calls<br>
+                        
+                        </p>
+                    <a href="https://drive.google.com/file/d/1OTYJ5STQ63dJK7TyaJ9gsAjbAfS_pQl7/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question18">
+                    <a class="accordian-link" href="#question18">
+                    Problem 18
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Consider a set of students. Each student’s data is 
+                        maintained in a structure called STUDENT which has the 
+                        following fields: <br>(i) first name (string with max 20 
+                        characters), <br>(ii) last name (string with max 20 
+                        characters), <br>(iii) roll no. (string with max 10 characters), 
+                        (iv) department code (string with max 5 characters), and <br>
+                        (v) CGPA (float)<br>
+                         Define the STUDENT structure as above<br>
+                        <br>
+                         Write a function<br>
+                        void SortStudents(struct STUDENT S[ ], int n)<br>
+                        that takes an array S of STUDENT structures with n elements, and 
+                        sorts it in ascending order (lexicographic) of first name<br>
+                        • If there are two students with same first name, the one with 
+                        the smaller (lexicographic) last name should come first. 
+                        Assume that there are no two students with both same first 
+                        name and same last name.<br>
+                        • You can use string functions like strcmp() to decide if one string is 
+                        smaller than the other or not<br>
+                        • You can write any additional function if you want, but add a 
+                        comment inside the function stating what that function does<br>
+                        <br>
+                         Write a function<br>
+                        struct STUDENT *SearchStudents(struct STUDENT S[ ], int n, char *first, char *last)
+                        that takes as parameters an array S of STUDENT structures with n
+                        elements, already sorted by first name and last name as described 
+                        in the SortStudents() function, pointers to null-terminated strings 
+                        first and last, and returns the details of the student with the first 
+                        name first and last name last. If there is no such student, the 
+                        functions should return NULL. Assume that there are no two 
+                        student with both same first name and same last name<br>
+                        • If a matched student is found, malloc a STUDENT structure 
+                        inside the function, copy the student’s data in that structure, and 
+                        return the pointer to it, and assign it to a pointer in the main 
+                        function appropriately. Do not return the address of a local 
+                        struct STUDENT variable declared inside the function.<br>
+                        • For full marks, you should use concepts of binary search to 
+                        search, as the array given is sorted. You can write either 
+                        recursive or non-recursive version of binary search. Otherwise 
+                        there will be a small 20% penalty.<br>
+                        <br>
+                        • Write a main function that does the following:<br>
+                        • Reads in a filename (a string with max 20 characters) from the 
+                        keyboard in a character array f.<br>
+                        • Opens the file specified by the string f for read. If the file does not 
+                        exist, print an error message and exit<br>
+                        • Reads in the student details from the file f in an array of 
+                        STUDENT records<br>
+                        • Note that the no. of student records is not known to you at 
+                        first. So do exactly the following.<br>
+                        • First read all the data one by one in a single STUDENT 
+                        structure (overwrite on the same structure) till the EOF is 
+                        reached. Count how many structures you read before the 
+                        EOF is hit. This is the no. of structures n in the file<br>
+                        • Close the file f (fclose())<br>
+                        • Malloc an array X of STUDENT structures of size n.<br> 
+                        • Now open the file again with fopen(), and read n
+                        structures from it in the array of STUDENT structures 
+                        created<br>• Malloc one more array of student structures A of size n<br>
+                        • Copy X to A (so now you have the same student structures in two 
+                        arrays, X and A)<br>
+                        • Call SortStudents() with appropriate parameters to sort A by first 
+                        name<br>
+                        • In a loop, does the following<br>
+                        • Reads in an integer k from the keyboard<br>
+                        • If k = 0, exits the program<br>
+                        • If k = 1, reads in a string x and a string y from the keyboard 
+                        and calls SearchStudents() with appropriate parameters to 
+                        search for student with first name x and last name y. It prints 
+                        the field if a matching student is found, or prints an 
+                        appropriate message<br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1RNMh1Krge8h74tJN_nc1LcTPIoX1sGs5/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question19">
+                    <a class="accordian-link" href="#question19">
+                    Problem 19
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Read an input file (w10-1-in.txt) containing some positive integers and with 0 at the end.<br> For each integer x, print a string of length x in a new line of the output file (w10-1-out.txt), as shown in the example.<br>
+<br>
+                        Example 1<br>
+                        w10-1-in.txt:<br>
+                        2 3 3 4 7 0<br>
+                        w10-1-out.txt:<br>
+                        **<br>
+                        ***<br>
+                        ***<br>
+                        ****<br>
+                        *******<br>
+                        <br><br>
+                        Example 2<br>
+                        w10-1-in.txt:<br>
+                        3 5 9 12 13 19 21 0<br>
+                        w10-1-out.txt:<br>
+                        ***<br>
+                        *****<br>
+                        *********<br>
+                        ************<br>
+                        *************<br>
+                        *******************<br>
+                        *********************</p>
+                    <a href="https://drive.google.com/file/d/1nB3DI7E8g5Li4YsHVwO9PLqbFjMVdktD/view?usp=sharing" class="btn">Solution</a>
+
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question20">
+                    <a class="accordian-link" href="#question20">
+                    Problem 20
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Declare an integer variable n. <br>
+                        Read its value from the keyboard and dynamically allocate an integer array a[ ] of length n. <br>
+                        Fill up the array by n integers value from the keyboard. <br>
+                        Print the size of a[ ] in bytes and its elements in the terminal. <br>
+                        <br>
+                        Write a function that takes as input the address and the length of an array, 
+                        and shifts its content to the right by one place with wrap around, as 
+                        shown in the example. <br>
+                        Call this function from the main() with al] as input. <br>
+                        Print the array al] in the terminal after the function call. <br>
+                        Do this one more time. <br>
+                        All the prints should be inside main() <br>
+                        <br>
+                        Example: <br>
+                        Enter number of elements: 5 <br>
+                        Enter the elements: 7 3 6 1 4 <br>
+                        size of a[ ] = 20 <br>
+                        a[ ]=7 3 6 1 4 <br>
+                        After function call: <br>
+                        a[ ]= 4 7 3 6 1 <br>
+                        After  function call: <br>
+                        a[ ]= 1 4 7 3 6 </p>
+                    <a href="https://drive.google.com/file/d/1nVFBQ-eEUBchD3BJWUNTwewjhiclZ_Hg/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question21">
+                    <a class="accordian-link" href="#question21">
+                    Problem 21
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Declare a 2D integer array a[ ][ ] and define its size (#rows and #columns) taking user input. No need for dynamic allocation. Fill up it by 
+                        integer values from the user. <br>
+                        Write another function to find its saddle point(s) and print on the terminal. <br>
+                        If there is none, then print that message. <br>
+                        (An element is a saddle point if it is the unique maximum (or minimum) in its row but the unique minimum (resp., maximum) in its 
+                        column.) (100) <br>
+                        <br>
+                        Examples: <br>
+                        <br>
+                        1 5 7 <br>
+                        1 2 1 <br>
+                        7 3 4 <br>
+                        <br>
+                        In the above array a[1][1]= 2 is a saddle point. <br>
+                        1 5 7 <br>
+                        1 2 2 <br>
+                        7 3 4 <br>
+                        <br>
+                        In the above array, there is no saddle point. (Because the maximum in the 2nd row is not unique.) <br>
+                        <br>
+                        5 1 4 <br>
+                        6 2 7 <br>
+                        8 3 9 <br>
+                        <br>
+                        In the above array, there are two saddle points: <br>
+                        a[0][0]= 5 and a[2][1] = 3 <br>
+                        </p>
+                    <a href="https://drive.google.com/file/d/1exBNQfWtQ2-9cdI2BUR3o-wrDvqzz-SB/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question22">
+                    <a class="accordian-link" href="#question22">
+                    Problem 22
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>User supplies two positive integers m and n. Create two 2D integer arrays A and B such that 
+                        their sizes are mXn and 2X2 respectively. Let the user fill up these arrays. <br>
+                        <br>
+                        Write a function that takes A and B as input from main(), and returns to main() the number of occurrences of B in A. 
+                        nt this value.<br>
+                        <br>
+                        Example <br>
+                        Enter m, n: 4 3 <br>
+                        Enter A (one row at a time): <br>
+                        0 0 1<br>
+                        0 1 0<br>
+                        1 0 1<br>
+                        1 0 0<br>
+                        <br>
+                        Enter B (one row at a time): <br>
+                        0 1 <br>
+                        1 0<br>
+                        <br>
+                        Number of occurrences =2</p>
+                    <a href="https://drive.google.com/file/d/1QOE3lqBMC-9JUBdr5fYfL_V5m61U2QHa/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                
+                <div class="accordian-item" id="question23">
+                    <a class="accordian-link" href="#question23">
+                    Problem 23
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure named rectangle having integer width and integer height. <br>
+                        Ask the user for an integer n to dynamically allocate a ID array 
+                        of structure rectangle and of size n. <br>
+                        Let the user supply the data for n rectangles. <br>
+                        Apply bubble Sort to sort the array in non-decreasing order of the rectangle areas.<br> 
+                        Print the array. 
+                        
+                        Example <br>
+                        <br>
+                        Enter n: 3 <br>
+                        Enter width and height of 3 rectangles: <br>
+                        6 2<br>
+                        3 7<br>
+                        5 4<br>
+                        <br>
+                        Sorted by area: <br>
+                        (6,2), (5,4), (3,7)</p>
+                    <a href="https://drive.google.com/file/d/1G_WW5mI_KTfaobtPbvwj2gaM_qaW2pKe/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question24">
+                    <a class="accordian-link" href="#question24">
+                    Problem 24
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Take a positive integer n (2 to 10) as input to create an n-by-n square matrix A (2D integer array) [dynamically allocate]. <br>
+                        Fill up this matrix by keyboard input in main(). <br>
+                        Write a function void multiplyMat() that takes 
+                        an n-by-n square matrix A as input and computes A*A to store the result in B.<br> 
+                        Call this function from main() and print the elements of the squared matrix A.<br>
+                        <br>
+                        Examples:<br> 
+                        <br>
+                        
+                        Enter n (2 to 10): 2<br> 
+                        Enter the elements of the matrix: <br>
+                        1 2<br>
+                        3 4<br>
+                        <br>
+                        Squared matrix: <br>
+                        7 10 <br>
+                        15 22 </p>
+                    <a href="https://drive.google.com/file/d/1OFRLTLnCZRCZTk2LIaB4uhGu7apj8Gkr/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+                <div class="accordian-item" id="question25">
+                    <a class="accordian-link" href="#question25">
+                    Problem 25
+                    <i class="icon ion-md-add"></i>
+                    <i class="icon ion-md-remove"></i>
+                </a>
+                <div class="answer">
+                    <p>Define a structure named "student" with the following fields:<br> 
+                        name and surname of 15 characters each, and cgpa as a real number.<br> 
+                        Write a swap function that takes as input two student pointers a and b, and exchanges the data in the 
+                        student records pointed by them. <br>
+                        The return type of this function should be void. <br>
+                        <br>
+                        In main(), declare two student-type variables, a and b. <br>
+                        Take user input to fill up their fields. <br>
+                        Call the swap function to exchange their data and then print the result from the main().<br>
+                        <br>
+                        Example <br>
+                        
+                        Enter the name, surname, CGPA of 1st student: amar bose 7.25 <br>
+                        Enter the name, surname, CGPA of 2nd student: bela sen 8.12 <br>
+                        <br>
+                        After swapping: <br>
+                        <br>
+                        Student 1: bela sen 8.12 <br>
+                        Student 2: amar bose 7.25 </p>
+                    <a href="https://drive.google.com/file/d/1Frma1EXdTKzK-I8XqgSu1QM8EBYAu5rf/view?usp=sharing" class="btn">Solution</a>
+                </div>
+                </div>
+
+
+
+                
+
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
